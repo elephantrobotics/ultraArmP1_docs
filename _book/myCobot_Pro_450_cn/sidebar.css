@@ -1,0 +1,7 @@
+/* 强制右移侧边栏 header 文本 */
+.book-summary li.header {
+    display: inline-block !important;
+    transform: translateX(17px); /* 往右移动 */
+}
+
+
