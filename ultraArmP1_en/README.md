@@ -1,36 +1,20 @@
-# myCobot Pro 450
-
-<img src = ./resources/1-ProductInformation/1.ProductIntroduction/main.png
-width = "1200" align = "center">
-
-The first choice for getting started with the full harmonic collaborative robot arm
-
-Core Document
+P1机械臂核心文档
 ---
 
-This document contains comprehensive information from product introduction, detailed technical parameters to user instructions and product development guidance. The document will introduce the basic functions of the myCobot Pro 450 robot arm in depth, provide software development guidelines, and show successful application cases to help you understand how to effectively integrate myCobot Pro 450 into various applications. In addition, we also provide a wealth of support and service information to ensure that you can get the necessary help when you encounter any technical challenges.
+各位开发人员在此文件夹目录结构下完成P1机械臂的用户手册gitbook文档编写。
+本框架沿用450 gitbook框架，若内含不符合P1的文件夹或内容，可去除重写。
 
-Document Description
----
+##### 在文档编写过程需依据以下规则：
 
-Depending on your needs and your level of expertise in myCobot Pro 450 application development, you can choose to follow this order from beginning to end or use it as a standalone reference. You can always use the sidebar navigation on the left to jump to any part of this document. The full text is divided into the following five sections:
+1、需要基于 gitbook-cn-new 分支创建/拉取新分支，编写完文件后必须先合并至gitbook-cn-new，再由产品助理检查后统一合并至主支。
 
-#### Product Information
-The product information section will provide you with a basic overview of the robot arm, including detailed technical specifications such as main functions, product parameters and electrical characteristics, to help you quickly understand the basic characteristics and usage environment of the product. In addition, this section will detail the application examples and supported extended development of the product, providing you with the necessary development guides and resources. At the end of the article, relevant purchase links and channels will be provided for your convenience.
+2、图片尺寸大小规范：大图使用width = "1200"、中等的图使用width = "550"、小图（单个小屏幕）使用width = "300"。若图片需采用其他尺寸，则需截图向产品确认效果。
 
-#### Basic Settings
-This section is an important section that every user of this product must read carefully. It covers key information about the use, transportation, storage and maintenance of the product, aiming to ensure the safety and efficiency of users when operating the product. In addition, this section also details the division of responsibilities for product failure or damage that may occur due to failure to follow these guidelines.
+3、引用资源规范：
 
-#### Functions and Applications
-The Functions and Applications section details the basic functions of the robotic arm and how to use the software, including instructions for using myBlockly and system and firmware updates. The Software Development Guide provides guidance based on different development environments, such as Python and ROS, to support technical developers in expanding their applications. By showcasing successful application cases and providing supporting resources, we provide practical references and essential support materials for a deeper understanding and use of the product.
+* 所引用的图片名称统一命名为英文。
 
-#### Support and Services
-The Support and Services section will provide you with comprehensive troubleshooting guides and post-purchase service information, such as warranty and service terms, to help you quickly resolve problems when you encounter them, and ensure that you understand your rights and obligations after purchase. In addition, the 'About Us' section reinforces the user's understanding of the myCobot series product design and manufacturer, aiming to build trust and brand loyalty.
+* 所引用的图片放在ultraArmP1_cn\resources目录下的同名的目录下，图片资源目录的最小分类为三级目录（第三级为X.X），更深层级的章节图片直接放在所属的三级目录中。
+    例如：5.2.1章节的内容所引用的图片资源放在ultraArmP1_cn\C-FunctionsAndApplications\5-BasicApplication\5.2-minirobot目录下，不再往下新建细分图片资源的目录。
 
-#### Acknowledgements
-We appreciate your taking the time to read the myCobot Pro 450 User Manual. We hope that this document will help you better understand and effectively use this robot, thereby inspiring your creativity. If you have any questions or need further assistance, please feel free to contact our customer support team. We look forward to seeing the innovative projects you complete with myCobot Pro 450 and welcome you to join our fast-growing developer community.
-
-Document Directory
-
----
 
