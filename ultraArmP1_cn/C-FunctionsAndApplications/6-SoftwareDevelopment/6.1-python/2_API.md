@@ -141,11 +141,11 @@ ua.set_angles([0, 0, 90, 0],50)
         </tr>
         <tr>
             <td text-align: center>X</td>
-            <td>-301.7 ~ 362.7</td>
+            <td>-301.7 ~ 360.5</td>
         </tr>
         <tr>
             <td>Y</td>
-            <td>-362.7 ~ 362.7</td>
+            <td>-360.5 ~ 360.5</td>
         </tr>
         <tr>
             <td>Z</td>
