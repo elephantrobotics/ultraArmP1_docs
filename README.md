@@ -14,6 +14,6 @@ P1机械臂核心文档
 
 * 所引用的图片名称统一命名为英文。
 
-* 所引用的图片放在ultraArmP1_cn\resources目录下的同名的目录下，图片资源目录的最小分类为三级目录（第三级为X.X），更深层级的章节图片直接放在所属的三级目录中。
-    例如：5.2.1章节的内容所引用的图片资源放在ultraArmP1_cn\C-FunctionsAndApplications\5-BasicApplication\5.2-minirobot目录下，不再往下新建细分图片资源的目录。
+* 所引用的图片放在ultraArmP1_docs\resources目录下的同名的目录下，图片资源目录的最小分类为三级目录（第三级为X.X），更深层级的章节图片直接放在所属的三级目录中。
+    例如：5.2.1章节的内容所引用的图片资源放在ultraArmP1_Docs\resources\C-FunctionsAndApplications\5-BasicApplication\5.2-minirobot目录下，不再往下新建细分图片资源的目录。
 

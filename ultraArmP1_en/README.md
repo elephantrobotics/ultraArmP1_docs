@@ -6,7 +6,7 @@ P1机械臂核心文档
 
 ##### 在文档编写过程需依据以下规则：
 
-1、需要基于  develop分支创建/拉取新分支，编写完文件后必须先合并至 develop，再由产品助理检查后统一合并至主支。
+1、需要基于  develop 分支创建/拉取新分支，编写完文件后必须先合并至 develop，再由产品助理检查后统一合并至主支。
 
 2、图片尺寸大小规范：大图使用width = "1200"、中等的图使用width = "550"、小图（单个小屏幕）使用width = "300"。若图片需采用其他尺寸，则需截图向产品确认效果。
 
@@ -14,6 +14,6 @@ P1机械臂核心文档
 
 * 所引用的图片名称统一命名为英文。
 
-* 所引用的图片放在ultraArmP1_cn\resources目录下的同名的目录下，图片资源目录的最小分类为三级目录（第三级为X.X），更深层级的章节图片直接放在所属的三级目录中。
-    例如：5.2.1章节的内容所引用的图片资源放在ultraArmP1_cn\C-FunctionsAndApplications\5-BasicApplication\5.2-minirobot目录下，不再往下新建细分图片资源的目录。
+* 所引用的图片放在ultraArmP1_docs\resources目录下的同名的目录下，图片资源目录的最小分类为三级目录（第三级为X.X），更深层级的章节图片直接放在所属的三级目录中。
+    例如：5.2.1章节的内容所引用的图片资源放在ultraArmP1_Docs\resources\C-FunctionsAndApplications\5-BasicApplication\5.2-minirobot目录下，不再往下新建细分图片资源的目录。
 

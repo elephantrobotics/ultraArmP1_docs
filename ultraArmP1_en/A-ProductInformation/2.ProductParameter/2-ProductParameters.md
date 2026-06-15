@@ -4,7 +4,7 @@
 
 ## 1. Robot Specifications
 
-<img src="../../resources/1-ProductInformation/2.ProductParameter/main.png"
+<img src="../../../resources/1-ProductInformation/2.ProductParameter/main.png"
 width = "1200" align = "center">
 
 | Index | Parameters |
@@ -27,7 +27,7 @@ width = "1200" align = "center">
 
 ### 2.1 Product Dimensions And Working Space
 
-<img src = ../../resources/1-ProductInformation/2.ProductParameter/size.png
+<img src = ../../../resources/1-ProductInformation/2.ProductParameter/size.png
 width = "550" align = "center">
 
 ### 2.2 Joint Range Of Motion
@@ -56,12 +56,12 @@ width = "550" align = "center">
 ### 2.3 Hole Installation
 - The robot base is mounted with flanges. The base is compatible with both LEGO technology and M4 screw installation.
 
-<img src = ../../resources/1-ProductInformation/2.ProductParameter/孔位安装1.png
+<img src = ../../../resources/1-ProductInformation/2.ProductParameter/孔位安装1.png
 width = "550" align = "center">
 
 - The robot end is equipped with a flange, and the end of the robotic arm is compatible with both LEGO technology holes and screw thread holes.
 
-<img src = ../../resources/1-ProductInformation/2.ProductParameter/末端.png
+<img src = ../../../resources/1-ProductInformation/2.ProductParameter/末端.png
 width = "550" align = "center">
 
 ## 3. Electrical Characteristic Parameters
@@ -70,7 +70,7 @@ width = "550" align = "center">
 
 * Base front view：
 
- <img src="../../resources/1-ProductInformation/2.ProductParameter/正面.png" width="550" height="auto" />
+ <img src="../../../resources/1-ProductInformation/2.ProductParameter/正面.png" width="550" height="auto" />
 
   - ① RJ45：Dual network ports, used for connecting the device to the Internet or other network devices.
   - ② USB3：High-speed USB interface for connecting to computers or peripheral devices.
@@ -94,7 +94,7 @@ width = "550" align = "center">
 
 * Side View Of The End Of The Robotic Arm:
 
- <img src="../../resources/1-ProductInformation/2.ProductParameter/末端接口.png" width="550" height="auto" />
+ <img src="../../../resources/1-ProductInformation/2.ProductParameter/末端接口.png" width="550" height="auto" />
 
 | Number | Interface | Definition | Function |
 |:------:|:----------------:|:-----------:|:-------------------:|
@@ -103,7 +103,7 @@ width = "550" align = "center">
 
 #### 3.2.2 Robotic Arm End Interface Description
 
-<img src="../../resources/1-ProductInformation/2.ProductParameter/机械臂末端工具说明.png" width="550" height="auto" />
+<img src="../../../resources/1-ProductInformation/2.ProductParameter/机械臂末端工具说明.png" width="550" height="auto" />
 
 * The definition of each interface is shown in the following table:
 
@@ -124,7 +124,7 @@ The definitions of the various tool I/O ports are shown in the table below. Note
 
 ## 4. Cartesian Coordinate Parameters
 
-<img src="../../resources/1-ProductInformation/2.ProductParameter/坐标.png"
+<img src="../../../resources/1-ProductInformation/2.ProductParameter/坐标.png"
 width = "400" align = "center">
 
 * The definitions of each coordinate system are shown in the table below:

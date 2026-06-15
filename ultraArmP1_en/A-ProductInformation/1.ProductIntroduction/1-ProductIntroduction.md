@@ -3,7 +3,7 @@
 
 ##### myCobot Pro 450  
 
-<img src = ../../resources/1-ProductInformation/1.ProductIntroduction/ProductDescription.png width = "1200" align = "center">
+<img src = ../../../resources/1-ProductInformation/1.ProductIntroduction/ProductDescription.png width = "1200" align = "center">
 
 ##### The first choice for getting started with the full harmonic collaborative robot arm
 
@@ -15,7 +15,7 @@ In terms of control, it relies on a built-in industrial-grade core control board
 
 ### 1.2 Design Concept
 
-<img src = ../../resources/1-ProductInformation/1.ProductIntroduction/DualScreen.png width = "1200" align = "center">
+<img src = ../../../resources/1-ProductInformation/1.ProductIntroduction/DualScreen.png width = "1200" align = "center">
 
 The myCobot Pro 450 was designed to meet the growing demand for diverse applications. In education, it aims to help students more intuitively engage with and learn robotics, cultivating practical skills and innovative thinking. In scientific research, it aims to provide researchers with stable and precise experimental tools, accelerating their research progress. In commercial displays, it aims to create engaging interactive experiences and enhance presentations.
 
@@ -29,7 +29,7 @@ The myCobot Pro 450 was designed to meet the growing demand for diverse applicat
 
 ### 1.4 Feature
 
-<img src = ../../resources/1-ProductInformation/1.ProductIntroduction/ProductFeature.png
+<img src = ../../../resources/1-ProductInformation/1.ProductIntroduction/ProductFeature.png
 width = "1200" align = "center">
 
 | Features                | Feature description                                                     |
@@ -49,7 +49,7 @@ width = "1200" align = "center">
 
 ## 2. Product Application
 
-<img src = ../../resources/1-ProductInformation/1.ProductIntroduction/ApplicationScenario.png width = "1200" align = "center">
+<img src = ../../../resources/1-ProductInformation/1.ProductIntroduction/ApplicationScenario.png width = "1200" align = "center">
 
 ### 2.1 Client
 
@@ -62,7 +62,7 @@ width = "1200" align = "center">
 
 ### 2.2 Application Scenario
 
-<img src = ../../resources/1-ProductInformation/1.ProductIntroduction/Application.png
+<img src = ../../../resources/1-ProductInformation/1.ProductIntroduction/Application.png
 width = "1200" align = "center">
 
 | **user group**               | **Core application scenarios (out-of-the-box)**                                   | **Expand application scenarios (unlimited possibilities)**                                                           |
@@ -75,11 +75,11 @@ width = "1200" align = "center">
 
 ## 3. Supported Extension Development
 
-<img src = ../../resources/1-ProductInformation/1.ProductIntroduction/ExpansionAndDevelopment.png width = "1200" align = "center">
+<img src = ../../../resources/1-ProductInformation/1.ProductIntroduction/ExpansionAndDevelopment.png width = "1200" align = "center">
 
 The mycobot series of robotic arms are extremely valuable in the fields of education and scientific research, especially in Python and ROS (Robot Operating System), two widely used development environments. These environments provide strong support, allowing the mycobot series of products to be widely used in machine learning, artificial intelligence research, complex motion control, and visual processing tasks. At the same time, with dozens of accessories such as adaptive grippers, camera flanges, suction pumps, etc., you can give full play to myCobot's creative ideas.
 
-<img src = ../../resources/1-ProductInformation/1.ProductIntroduction/ExpansionAndDevelopment2.png width = "1200" align = "center">
+<img src = ../../../resources/1-ProductInformation/1.ProductIntroduction/ExpansionAndDevelopment2.png width = "1200" align = "center">
 
 | | |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |

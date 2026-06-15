@@ -1,6 +1,6 @@
 # 用户须知
 
-<img src="../../resources/2-BasicSettings/3-UserNotes/xuzhi.png" alt="img-1" width="800" height=“auto” /> <br>
+<img src="../../../resources/B-BasicSettings/3-UserNotes/[待补充：用户须知图].png" alt="img-1" width="800" height="auto" /> <br>
 
 本节对本产品的每个用户都至关重要，必须仔细阅读。它包括有关产品使用、运输、储存和维护的基本信息，以确保运行期间的安全和效率。此外，它还概述了因不遵守这些准则而导致产品故障或损坏的责任。用户须知分为几个小节，每个小节针对不同的主题提供详细的指导：
 
@@ -23,4 +23,4 @@
 ---
 
 如果您已经阅读了本章的所有内容，请继续阅读下一章。 <br>
-[← 上一章](../../1-ProductInformation/2-ProductFeature/2-ProductFeature.md) | [下一章 →](../3-UserNotes/3.1-SafetyInstruction.md)
+[← 上一章](../../A-ProductInformation/2-ProductFeature/2-ProductFeature.md) | [下一章 →](3.1-SafetyInstruction.md)

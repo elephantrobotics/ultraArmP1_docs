@@ -4,139 +4,104 @@
 
 ## 1. 机器人规格参数
 
-<img src = ../../resources/1-ProductIntroduction/2.ProductParameter/main.jpg
+<img src = ../../../resources/A-ProductInformation/2-ProductFeature/P1Production.png
 width = "1200" align = "center">
 
 | 指标       | 参数 |
 | :-----------: | :---------: |
-| 名称         | 全谐波协作机械臂 |
-| 型号         | myCobot Pro 450 |
-| 自由度       | 6          |
-| 有效负载     | 1 Kg       |
-| 工作半径     | 450mm      |
-| 重复定位精度 | ±0.1mm  |
-| 重量         | <5Kg       |
-| 电源输入     | 24V，9.2A       |
-| 工作温度     | 0-45℃     |
-| 通信         | TCP/IP-Socket<br>MODBUS<br>Ethernet IP    |
+| 名称         | 高精度 4 自由度智能码垛步进机械臂 |
+| 型号         | ultraArm P1 |
+| 自由度       | 4          |
+| 有效负载     | 650g       |
+| 工作半径     | 360mm      |
+| 重复定位精度 | ±0.1mm (ISO 9283)  |
+| 重量         | < 4.5Kg       |
+| 电源输入     | DC 12V，8A       |
+| 使用寿命     | > 5000h |
+| 工作温度     | 0°~50℃     |
+| 工作环境湿度 | 5%~80% |
+| 通信         | WiFi-2.4G / 蓝牙 2.4G/5G / USB 3.0 / UART / RS485 |
+| 通信协议     | TCP/IP-Socket / MODBUS |
 
 
 ---
 
 ## 2. 结构尺寸参数
-> ！本章以毫米为距离单位，以度为角度单位。
+> 本章以毫米为距离单位，以度为角度单位。
 
 ### 2.1 产品尺寸
 
-<img src = ../../resources/1-ProductIntroduction/2.ProductParameter/size.png
+<img src = ../../../resources/A-ProductInformation/2-ProductFeature/product_dimensions.png
 width = "550" align = "center">
+
 ### 2.2 关节运动范围
-**硬件关节运动范围**
+
+**硬件限位**
 
 | 关节       | 范围 |
 | :--------: | :----------:|
-| J1 | -165 ~ 165 |
-| J2 | -117 ~ 117 |
-| J3 | -157 ~ 157 |
-| J4 | -165 ~ 165 |
-| J5 | -165 ~ 165 |
-| J6 | -168 ~ 168 |
+| J1 | -168° ~ +168° |
+| J2 | -25° ~ +90° |
+| J3 | +85° ~ +205° |
+| J4 | -180° ~ +180° |
 
-**软件关节运动范围**
+**软件限位**
 
 | 关节       | 范围 |
 | :--------: | :----------:|
-| J1 | -162 ~ 162 |
-| J2 | -125 ~ 125 |
-| J3 | -154 ~ 154 |
-| J4 | -162 ~ 162 |
-| J5 | -162 ~ 162 |
-| J6 | -165 ~ 165 |
+| J1 | -158° ~ +158° |
+| J2 | -18° ~ +85° |
+| J3 | +89° ~ +190° |
+| J4 | -179° ~ +179° |
 
-### 2.3 孔位安装
-- 机器人底座安装法兰，底座同时兼容乐高科技件安装方式和M4螺丝安装方式。
+### 2.3 关节最大速度
 
-<img src = ../../resources/1-ProductIntroduction/2.ProductParameter/孔位安装1.png
-width = "550" align = "center">
+| 关节       | 最大速度 |
+| :--------: | :----------:|
+| J1 | 180°/s |
+| J2 | 180°/s |
+| J3 | 180°/s |
+| J4 | 180°/s |
 
-- 机器人末端安装法兰，机械臂末端同时兼容乐高科技件孔与螺丝螺纹孔。
+## 3. 机械臂底座接口说明
 
-<img src = ../../resources/1-ProductIntroduction/2.ProductParameter/末端.png
-width = "550" align = "center">
+### 底座正面图：
 
-## 3. 电气特性参数
+  <img src="../../../resources/A-ProductInformation/2-ProductFeature/base_front.png" width="300" height="auto" />
 
-### 3.1 机械臂底座电气接口
-#### 3.1.1 底座介绍
+  - ① MiniRobot 控制屏幕
+  - ② MiniRobot 按钮
+  - ③ 12V 电源：连接电源适配器。
+  - ④ 电机接口：用于连接和控制电机。
+  - ⑤ 数字限位输入：用于 PNP 三线式光电/接近传感器专用输入。
+  - ⑥ 3.3V-I/O：提供 3.3V 电源和数字信号接口。
+  - ⑦ IIC Grove：用于连接 I²C 通信的传感器或模块。
+  - ⑧ PWM Grove：用于连接舵机等需要 PWM 信号的设备。
+  - ⑨ 电源开关：按下锁定为开机，再次按下释放为关机。
 
-* 底座正面图：
+### 底座侧面图：
 
-  <img src="../../resources/1-ProductIntroduction/2.ProductParameter/正面.png" width="550" height="auto" />
+  <img src="../../../resources/A-ProductInformation/2-ProductFeature/base_side.png" width="300" height="auto" />
 
-  - ① RJ45：双网口，用于设备联网或连接其他网络设备。
-  - ② USB3：高速USB接口，连接电脑或外围设备。
-  - ③ RS485：工业串口通信，连接PLC、传感器等。线序（从左到右）：GND、485_B、485_A
-  - ④ CAN：CAN总线通信，连接驱动器。线序（从左到右）：CAN_GND、CAN_L、CAN_H
-  - ⑤ 功能IO：数字信号输入/输出。
-  - ⑥ 电源开关：按下锁定为开机，再次按下释放为关机。
-  - ⑦ DC24V电源：连接电源适配器。 
-  - ⑧ 急停接口：连接外部急停按钮，紧急情况下切断电源，保障安全。
-
-#### 3.1.2 底座接口说明
-
-* 每个接口的定义如下表所示:
-
-| 标签 | 信号名 | 类型 | 功能 |
-| :---: | :----: | :--: | :------: |
-| 2     | 1-12 | I/O |  24V |   |    
-
-### 3.2 机械臂末端电气接口
-#### 3.2.1 机械臂末端介绍
-
-* 机械臂末端侧视图
-
-  <img src="../../resources/1-ProductIntroduction/2.ProductParameter/末端接口.png" width="550" height="auto" />
-
-| 编号 | 接口    | 定义 | 功能         | 
-|:------:|:----------------:|:-----------:|:-------------------:|
-| 12     | M8航空插座 | 末端工具IO接口 |  24V/2A输出，支持短路、反接、雷击、过流、过压保护 |  
-|        | M8航空插座 | RS485接口      | 支持配置波特率9600、115200                       |
-
-
-#### 3.2.2 机械臂末端接口说明
-
-<img src="../../resources/1-ProductIntroduction/2.ProductParameter/机械臂末端工具说明.png" width="550" height="auto" />
-
-* 每个接口的定义如下表所示:
-
-各个工具I/O端口的定义如下表所示，注意的是，工具I/O是输出是PNP类型，输入为NPN类型。接线方式同底部输出接口一致。
-
-| 编号 | 信号 | 解释             | 配套M8线颜色 |
-| :------: | :------: | :-----------------------: | :--------------------------: |
-| 1      | GND    | DC24V 负极      | 白                      |
-| 2      | OUT1   | 工具输出接口1 | 褐                      |
-| 3      | OUT2   | 工具输出接口2 | 绿                      |
-| 4      | 485A   |  485标准接口A  | 黄                     |
-| 5      | 24V    | DC24V 正极         | 灰                        |
-| 6      | IN1    | 工具输入接口1  | 粉                       |
-| 7      | IN2    | 具输入接口2             | 蓝                      |
-| 8      | 485B   |  485标准接口B | 紫                    |
+  - ① RS485 Grove：工业串行通信，抗干扰强，距离远。
+  - ② Type-C 接口：程序烧录与通信。
+  - ③ UART Grove：串口通信，连接串口设备。
 
 
 ## 4. 笛卡尔坐标参数
 
-<img src = ../../resources/1-ProductIntroduction/2.ProductParameter/坐标.png
-width = "400" align = "center">
+<img src = ../../../resources/A-ProductInformation/2-ProductFeature/coordinate_system.png
+width = "550" align = "center">
 
 * 每个坐标系的定义如下表所示：
 
 | 坐标系 | 定义 |
 | :--- | :--- |
-| **末端坐标系** | - 原点：末端法兰盘表面与J6旋转轴的交点。<br> - X轴：机械臂处于关节零位时，面朝底座开关，水平向右。<br> - Y轴：机械臂处于关节零位时，面朝底座开关，竖直向下。<br> - Z轴：机械臂处于关节零位时，面朝底座开关，水平向前。 |
-| **基坐标系** | - 原点：底座底面与J1旋转轴的交点。<br> - X轴：面朝底座开关，水平向前。<br> - Y轴：面朝底座开关，水平向左。<br> - Z轴：竖直向上。 |
+| **末端坐标系** |- 原点：末端快接锁头水平面中心点。<br>X轴：机械臂处于关节零位时，面朝底座开关，水平向前。<br>Y轴：机械臂处于关节零位时，面朝底座开关，水平向左。<br>Z轴：机械臂处于关节零位时，面朝底座开关，竖直向上。  |
+| **基坐标系** | - 原点：底座底面中心点。<br>X轴：面朝底座开关，水平向前。<br>Y轴：面朝底座开关，水平向左。<br>Z轴：竖直向上。 |
 
 
 
 ---
 
-[← 上一章](../1-ProductIntroduction/1-ProductIntroduction.md) | [下一章 →](../../2-BasicSettings/3-UserNotes/README.md)
+[← 上一章](../1-ProductIntroduction/1-ProductIntroduction.md) | [下一章 →](../../B-BasicSettings/3-UserNotes/README.md)

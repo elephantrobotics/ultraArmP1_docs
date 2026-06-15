@@ -16,4 +16,4 @@
 
 ---
 
-[← 上一章](../3-UserNotes/3.4.3-other.md) | [下一章 →](../4-FirstInstallAndUse/4.1-ProductStandardList.md)
+[← 上一章](../3-UserNotes/3.4.3-other.md) | [下一章 →](4.1-ProductStandardList.md)
