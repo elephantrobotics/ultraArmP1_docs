@@ -4,7 +4,7 @@
 
 ## 1. 机器人规格参数
 
-<img src = ../../../resources/A-ProductInformation/2-ProductFeature/P1Production.png
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/P1Production.png
 width = "1200" align = "center">
 
 | 指标       | 参数 |
@@ -31,7 +31,7 @@ width = "1200" align = "center">
 
 ### 2.1 产品尺寸
 
-<img src = ../../../resources/A-ProductInformation/2-ProductFeature/product_dimensions.png
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/product_dimensions.png
 width = "550" align = "center">
 
 ### 2.2 关节运动范围
@@ -67,7 +67,7 @@ width = "550" align = "center">
 
 ### 底座正面图：
 
-  <img src="../../../resources/A-ProductInformation/2-ProductFeature/base_front.png" width="300" height="auto" />
+  <img src="../../resources/A-ProductInformation/2-ProductFeature/base_front.png" width="300" height="auto" />
 
   - ① MiniRobot 控制屏幕
   - ② MiniRobot 按钮
@@ -81,7 +81,7 @@ width = "550" align = "center">
 
 ### 底座侧面图：
 
-  <img src="../../../resources/A-ProductInformation/2-ProductFeature/base_side.png" width="300" height="auto" />
+  <img src="../../resources/A-ProductInformation/2-ProductFeature/base_side.png" width="300" height="auto" />
 
   - ① RS485 Grove：工业串行通信，抗干扰强，距离远。
   - ② Type-C 接口：程序烧录与通信。
@@ -90,7 +90,7 @@ width = "550" align = "center">
 
 ## 4. 笛卡尔坐标参数
 
-<img src = ../../../resources/A-ProductInformation/2-ProductFeature/coordinate_system.png
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/coordinate_system.png
 width = "550" align = "center">
 
 * 每个坐标系的定义如下表所示：

@@ -33,7 +33,7 @@ ROS2和Ubuntu对应的发行版本和维护周期。
 
 ROS2重新设计了系统架构。 两代ROS的架构变化如下：
 
-<img src =../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.3-ROS2/ros-ros2.png
+<img src =../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.3-ROS2/ros-ros2.png
 width ="500"  align = "center">
 
 - **OS Layer：** OS层。在ROS2中，它可以构建在linux或其他系统上，甚至是没有操作系统的裸机。
