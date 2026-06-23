@@ -20,7 +20,7 @@ It is mainly used to realize intelligent route planning to let the robot arm mov
 
 > **Note:** When setting coordinates, different series of robot arm joint structures are different. For the same set of coordinates, different series of robot arms will show different postures.
 >
-> <img src="../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/coord.jpg" style="zoom: 67%;" />
+> <img src="../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/coord.jpg" style="zoom: 67%;" />
 
 **Example Use**
 

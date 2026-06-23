@@ -33,7 +33,7 @@ The release version and maintenance cycle corresponding to ROS2 and Ubuntu.
 
 ROS2 redesigned the system architecture. The architecture changes between the two generations of ROS are as follows:
 
-<img src =../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.3-ROS2/ros-ros2.png
+<img src =../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.3-ROS2/ros-ros2.png
 width ="500"  align = "center">
 
 - **OS Layer:** In ROS2, it can be built on linux or other systems, even bare metal without an operating system.
