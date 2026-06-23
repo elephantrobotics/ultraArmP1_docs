@@ -160,10 +160,10 @@
 
 | Color | meaning                                                     |
 | ---- | ------------------------------------------------------------ |
-| <img  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/notConnected.svg" />| 未连接 |
-| <img  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/standby.svg" />    | 连接中 |
-| <img  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/running.svg" />    | 正在运动 |
-| <img  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/error.svg" />    | 机器异常  |
+| <img width = "60"  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/notConnected.svg" />| 未连接 |
+| <img width = "60"  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/standby.svg" />    | 连接中 |
+| <img width = "60"  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/running.svg" />    | 正在运动 |
+| <img width = "60"  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/error.svg" />    | 机器异常  |
 
 ---
 
