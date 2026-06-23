@@ -1,5 +1,5 @@
 # Product Information Download
-The product information includes detailed specifications, technical parameters and instructions for use of the mycobot pro 450 robot arm. This section is designed to help users fully understand the performance and functions of the robot arm and ensure the best experience during use
+The product information includes detailed specifications, technical parameters and instructions for use of the ultraArm P1 robot arm. This section is designed to help users fully understand the performance and functions of the robot arm and ensure the best experience during use
 
 ---
 

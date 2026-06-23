@@ -1,9 +1,9 @@
 # Promotional Materials
-The promotional materials section includes the product brochure, demonstration video and customer cases of the mycobot pro 450 robot arm. These materials not only show the core advantages and application scenarios of the robot arm, but also provide successful cases in actual applications to help potential customers understand the value of the product more intuitively.
+The promotional materials section includes the product brochure, demonstration video and customer cases of the ultraArm P1 robot arm. These materials not only show the core advantages and application scenarios of the robot arm, but also provide successful cases in actual applications to help potential customers understand the value of the product more intuitively.
 
 | Machine | Product Brochure |
 | :------------: | :----------------------------------------------------------: |
-| mycobot pro 450 | [Download](https://download-elephantrobotics.oss-cn-shenzhen.aliyuncs.com/Product_software/myCobot/brochure/myCobot280M5-brochure-2023031.pdf) |
+| ultraArm P1 | [Download](https://download-elephantrobotics.oss-cn-shenzhen.aliyuncs.com/Product_software/myCobot/brochure/myCobot280M5-brochure-2023031.pdf) |
 
 **Product unboxing video**
 

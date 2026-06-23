@@ -1,8 +1,10 @@
 {
+  "title": "P1 用户手册",
   "styles":{
-    "website": "/sidebar.css"
+    "website": "/sidebar.css",
+    "pdf": "/pdf.css"
   },
-  
+
   "plugins": [
     "chapter-fold",
     "expandable-chapters",
@@ -30,5 +32,20 @@
       "favicon": "./favicon.ico"
     },
     "password": {}
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "paperSize": "a4",
+    "tocTitle": "P1 用户手册",
+    "extraCss": "pdf.css",
+    "margin": {
+      "right": 20,
+      "left": 20,
+      "top": 20,
+      "bottom": 20
+    },
+    "chapterMark": "pagebreak",
+    "pageBreaksBefore": "/"
   }
 }

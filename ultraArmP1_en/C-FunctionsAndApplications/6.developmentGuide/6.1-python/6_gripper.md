@@ -9,20 +9,20 @@ Before using the Python API, please make sure that the following hardware and en
 
 - **Software and Environment** 
   - Python 3.6 and above installed 
-  - `pymycobot` library installed (installed via `pip install pymycobot` terminal command) 
+  - `ultraArm_P1_lib` library installed (installed via `pip install ultraArm_P1_lib` terminal command) 
   - Make sure ultraArm P1 is properly powered on and in standby mode
 
 ---
 
 ## Gripper Control
 
-Before using Python to control the gripper, the gripper needs to be installed and connected to the robotic arm. Different grippers are adapted to different robotic arms; here, the mycobot adaptive gripper is used.
+Before using Python to control the gripper, the gripper needs to be installed and connected to the robotic arm. Different grippers are adapted to different robotic arms; here, the P1 compatible gripper is used.
 
 **Example Usage**
 
 ```python
 import time
-from pymycobot import UltraArmP1
+from ultraArm_P1_lib import UltraArmP1
 
 ua = UltraArmP1('COM3', 1000000) # Serial port connection communication
 

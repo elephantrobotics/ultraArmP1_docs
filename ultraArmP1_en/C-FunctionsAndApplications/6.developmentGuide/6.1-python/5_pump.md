@@ -9,7 +9,7 @@ Before using the Python API, please make sure that the following hardware and en
 
 - **Software and Environment** 
   - Python 3.6 and above installed 
-  - `pymycobot` library installed (installed via `pip install pymycobot` terminal command) 
+  - `ultraArm_P1_lib` library installed (installed via `pip install ultraArm_P1_lib` terminal command) 
   - Make sure ultraArm P1 is properly powered on and in standby mode
 
 ---
@@ -22,7 +22,7 @@ This section mainly explains the use of controlling the suction pump.
 
 ```python
 import time
-from pymycobot import UltraArmP1
+from ultraArm_P1_lib import UltraArmP1
 
 ua = UltraArmP1('COM3', 1000000) # Serial port connection and communication
 
