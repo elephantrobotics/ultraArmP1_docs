@@ -46,7 +46,7 @@ MoveIt is a ROS integrated development platform consisting of various functional
 
 The following figure shows the high-level structure of the main node **move_group** provided by MoveIt. It acts as a combiner: it brings together all the individual components to provide users with a range of operations and services.
 
-<img src =../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.2-ROS1/ROS1/moveit/moveit-1.png
+<img src =../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.2-ROS1/ROS1/moveit/moveit-1.png
 width ="500"  align = "center">
 
 ## 2 User Interface
