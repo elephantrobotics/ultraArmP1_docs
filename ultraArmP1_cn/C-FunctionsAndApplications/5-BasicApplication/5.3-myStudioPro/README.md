@@ -24,7 +24,7 @@
 
 ## myStudio Pro界面的显示和基本功能的使用
 
-打开软件，主界面如下图所示
+登录软件，主界面如下图所示
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-1.png" />
 
@@ -51,6 +51,8 @@
 ## 软急停
 
 此按钮功能为：控制机器人当前运动停止，所有运行程序中止
+
+<img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-17.png" />
 
 ## 功能实现
 
@@ -93,8 +95,6 @@
 功能：提供机器人 IO 快捷控制以及关节角度、坐标的快捷控制
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-7.png" />
-
-<!-- 快速移动[功能详细介绍](./5.3.3-quickmove.md) -->
 
 #### [资源中心](./5.3.5-resourceCenter.md)
 
@@ -160,10 +160,10 @@
 
 | Color | meaning                                                     |
 | ---- | ------------------------------------------------------------ |
-| <img width = "50" align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/notConnected.svg" />| 未连接 |
-| <img width = "50" align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/standby.svg" />    | 连接中 |
-| <img width = "50" align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/running.svg" />    | 正在运动 |
-| <img width = "50" align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/error.svg" />    | 机器异常  |
+| <img width = "60"  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/notConnected.svg" />| 未连接 |
+| <img width = "60"  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/standby.svg" />    | 连接中 |
+| <img width = "60"  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/running.svg" />    | 正在运动 |
+| <img width = "60"  align="center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/error.svg" />    | 机器异常  |
 
 ---
 
