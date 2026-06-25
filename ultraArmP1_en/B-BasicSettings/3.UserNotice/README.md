@@ -1,7 +1,5 @@
 # User Notes
 
-<img src="../../../resources/2-BasicSettings/3.UserNotice/xuzhi.png" alt="img-1" width="800" height=“auto” /> <br>
-
 This section is crucial for every user of this product and must be read carefully. It includes essential information on product use, transportation, storage, and maintenance to ensure safety and efficiency during operation. Additionally, it outlines liability for product failure or damage resulting from non-compliance with these guidelines. The User Notice is divided into subsections, each providing detailed guidance on different topics:
 
 ## Chapter Summary
