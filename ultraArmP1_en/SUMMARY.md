@@ -25,6 +25,7 @@
     * [5.1 System Instructions](C-FunctionsAndApplications/5-BasicApplication/5.1-SystemInstructions.md)
     * [5.2 MiniRobot Introduction](C-FunctionsAndApplications/5-BasicApplication/5.2-minirobot/README.md)
     * [5.3 myStudio Pro Introduction](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/README.md)
+<<<<<<< HEAD
       * [5.3.1 First Use](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.1-firstUse.md)
       * [5.3.2 Launch Page](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.2-launch.md)
       * [5.3.3 Block Programming](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.3-blockly.md)
@@ -33,6 +34,14 @@
       * [5.3.6 Scene Application](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.6-scene.md)
       * [5.3.7 Configuration Center](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.7-setting.md)
       * [5.3.8 Q&A](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.8-Q&A.md)
+=======
+        * [5.3.1 First Use](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.1-firstUse.md)
+        * [5.3.2 Launch Page](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.2-launch.md)
+        * [5.3.3 Block Programming](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.3-blockly.md)
+        * [5.3.4 Debug Plane](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.4-debugPlane.md)
+        * [5.3.6 Scene Application](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.6-scene.md)
+        * [5.3.7 Configuration Center](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.7-setting.md)
+>>>>>>> origin/develop
     * [5.4 Set Joint Zero](C-FunctionsAndApplications/5-BasicApplication/5.4-set_joint_zero.md)
 * [6 Development Guide](C-FunctionsAndApplications/6.developmentGuide/README.md)
     * [6.1 Python Development](C-FunctionsAndApplications/6.developmentGuide/6.1-python/README.md)
@@ -60,21 +69,16 @@
     * [7.1 Case 1](C-FunctionsAndApplications/7.SuccessfulCase/7.1.md)
     * [7.2 Case 2](C-FunctionsAndApplications/7.SuccessfulCase/7.2.md)
     * [7.3 Case 3](C-FunctionsAndApplications/7.SuccessfulCase/7.3.md)
-    * [7.4 Case 4](C-FunctionsAndApplications/7.SuccessfulCase/7.4.md)
 * [8 Supporting Resources](C-FunctionsAndApplications/8.SupportingResources/README.md)
     * [8.1 Product Information](C-FunctionsAndApplications/8.SupportingResources/8.1-ProductInformation/README.md)
     * [8.2 Product Drawings](C-FunctionsAndApplications/8.SupportingResources/8.2-ProductDrawings/README.md)
     * [8.3 System Information](C-FunctionsAndApplications/8.SupportingResources/8.3-SystemInformation/README.md)
-    * [8.4 Promotional Materials](C-FunctionsAndApplications/8.SupportingResources/8.4-PromotionalMaterials/README.md)
 
 ## Support and Service
 * [9 About Us](D-SupportAndService/9.AboutUs/9.AboutUs.md)
 * [10 Accessories](D-SupportAndService/10.Accessories/accessories.md)
     * [10.1 myGripper F100](D-SupportAndService/10.Accessories/10.1-myGripperF100.md)
     * [10.2 Pneumatic Gripper](D-SupportAndService/10.Accessories/10.2-PneumaticGripper.md)
-    * [10.3 Vertical Suction Pump](D-SupportAndService/10.Accessories/10.3-VerticalSuctionPump.md)
-    * [10.4 Pen Holder](D-SupportAndService/10.Accessories/10.4-PenHolderPro.md)
-    * [10.5 Laser Emitter](D-SupportAndService/10.Accessories/10.5-LaserEmitter.md)
 * [11 Log Update](D-SupportAndService/11-LogUpdate.md)
 
 ## Acknowledgments

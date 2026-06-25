@@ -16,7 +16,7 @@ Before using Case Function I, please ensure the following hardware and environme
 
   - Python 3.6 or later is installed
 
-  - The `pymycobot` library is installed (installed via the terminal command `pip install pymycobot`)
+  - The `ultraArm_P1_lib` library is installed (installed via the terminal command `pip install ultraArm_P1_lib`)
 
   - Ensure the ultraArm P1 is properly powered on and in standby mode
 
@@ -29,14 +29,14 @@ Before using Case Function I, please ensure the following hardware and environme
 **When using the following function interfaces, please import our API library at the beginning; otherwise, the code will not run successfully. Enter the following code:**
 
 ```python 
-from pymycobot import UltraArmP1
+from ultraArm_P1_lib import UltraArmP1
 ```
 
 **Note:** If our API library is not installed, please refer to the [Environment Installation](./1_download.md) document for installation instructions.
 
 ```python
 # demo
-from pymycobot import UltraArmP1
+from ultraArm_P1_lib import UltraArmP1
 
 ua = UltraArmP1("COM3",1000000)
 
@@ -961,7 +961,7 @@ The connection mode needs to be switched to **WLAN** on the small screen on the 
 ```python
 
 # Example
-from pymycobot import UltraArmP1Socket
+from ultraArm_P1_lib import UltraArmP1Socket
 
 # Default port 9000
 
@@ -993,7 +993,7 @@ The connection mode needs to be switched to **Bluetooth** on the small screen on
 ```python
 
 # Example
-from pymycobot import UltraArmP1Bluetooth
+from ultraArm_P1_lib import UltraArmP1Bluetooth
 
 # Modify the Bluetooth address according to the actual situation
 ua = UltraArmP1Bluetooth("10:51:DB:40:2C:11")

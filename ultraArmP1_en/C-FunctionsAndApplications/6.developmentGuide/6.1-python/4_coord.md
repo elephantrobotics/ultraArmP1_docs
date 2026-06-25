@@ -9,7 +9,7 @@ Before using the Python API, please make sure that the following hardware and en
 
 - **Software and Environment** 
   - Python 3.6 and above installed 
-  - `pymycobot` library installed (installed via `pip install pymycobot` terminal command) 
+  - `ultraArm_P1_lib` library installed (installed via `pip install ultraArm_P1_lib` terminal command) 
   - Make sure ultraArm P1 is properly powered on and in standby mode
 
 ---
@@ -20,13 +20,13 @@ It is mainly used to realize intelligent route planning to let the robot arm mov
 
 > **Note:** When setting coordinates, different series of robot arm joint structures are different. For the same set of coordinates, different series of robot arms will show different postures.
 >
-> <img src="../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/coord.jpg" style="zoom: 67%;" />
+> <img src="../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/coord.jpg" style="zoom: 67%;" />
 
 **Example Use**
 
 ```python
 import time
-from pymycobot import UltraArmP1
+from ultraArm_P1_lib import UltraArmP1
 
 ua = UltraArmP1('COM3', 1000000) # Serial port connection communication
 

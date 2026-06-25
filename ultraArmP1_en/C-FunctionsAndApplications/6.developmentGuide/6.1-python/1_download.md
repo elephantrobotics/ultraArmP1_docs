@@ -1,15 +1,15 @@
 # Environment Setup
 
-pymycobot is a Python package for serial communication with myCobot, supporting Python3.5 and later versions.
+ultraArm_P1_lib is a Python package for serial communication with myCobot, supporting Python3.5 and later versions.
 
-Before using pymycobot to control the robot arm, you need to build a Python environment. The following is a detailed description of Python download and installation.
+Before using ultraArm_P1_lib to control the robot arm, you need to build a Python environment. The following is a detailed description of Python download and installation.
 
 ## Linux System
 
-Install the pymycobot library in the console terminal:
+Install the ultraArm_P1_lib library in the console terminal:
 
 ```python
-pip install pymycobot --upgrade --user
+pip install ultraArm_P1_lib --upgrade --user
 ```
 
 ## Windows System
@@ -18,7 +18,7 @@ pip install pymycobot --upgrade --user
 
 **Applicable devices:** 
 
-- **myCobot Pro 450**
+- **ultraArm P1**
 
 Currently, there are two versions of Python, one is `2.x` version and the other is `3.x` version. These two versions are incompatible. As `3.x` version is becoming more and more popular, our tutorial will take the latest `3.10.7` version as an example.
 
@@ -144,26 +144,26 @@ After PyCharm is installed, enter the software and create the first program.
 
 * Firmware burning. Firmware refers to the device "driver" stored inside the device. Only through firmware can the operating system implement the operation of a specific machine according to the standard device driver. Different versions of the robot arm need to burn different firmware (refer to the **MyStudio** chapter).
 
-* pymycobot installation. Open a console terminal (shortcut Win+R, enter cmd to enter the terminal), and enter the following command:
+* ultraArm_P1_lib installation. Open a console terminal (shortcut Win+R, enter cmd to enter the terminal), and enter the following command:
 
 ```python
-pip install pymycobot --upgrade --user
+pip install ultraArm_P1_lib --upgrade --user
 ```
 
-<img src="../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/pymycobot_1.jpg" style="zoom: 67%;" />
+<img src="../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/ultraArm_P1_lib_1.jpg" style="zoom: 67%;" />
 
-The following words appear, indicating that the pymycobot package has been successfully installed
+The following words appear, indicating that the ultraArm_P1_lib package has been successfully installed
 
-<img src="../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/pymycobot_2.png" style="zoom: 67%;" />
+<img src="../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/ultraArm_P1_lib_2.png" style="zoom: 67%;" />
 
 * Source code installation. Open a console terminal (shortcut Win+R, enter cmd to enter the terminal), enter the following command to install:
 
 ```python
-git clone -b develop https://github.com/elephantrobotics/pymycobot.git <your-path>
+git clone -b develop https://github.com/elephantrobotics/ultraArm_P1_lib.git <your-path>
 #Where <your-path> fills in your installation address, if not filled in, the current path is used by default
 
-cd <your-path>/pymycobot
-#Enter the pymycobot folder of the download package
+cd <your-path>/ultraArm_P1_lib
+#Enter the ultraArm_P1_lib folder of the download package
 
 #Run one of the following commands according to your python version
 # Install
@@ -174,23 +174,23 @@ python3 setup.py install
 
 ## Simple Use Of Python
 
-After the above preparations are completed, start to control the robot arm through Python code. Here, the MyCobot Pro 450 version is used as an example for demonstration.
+After the above preparations are completed, start to control the robot arm through Python code. Here, the ultraArm P1 version is used as an example for demonstration.
 
 First, open the PyCharm you installed, create a new Python file, enter the following code, and import our library:
 
 ```python
-from pymycobot import UltraArmP1
+from ultraArm_P1_lib import UltraArmP1
 ```
 
 **Note:**
 
-1. If you enter `from pymycobot import UltraArmP1`, there is no red wavy line under the font, which proves that it has been successfully installed and can be used. If a red wavy line appears, you can refer to [**How ​​to install the API library** ](https://www.cnblogs.com/xiaoguan-bky/p/11184740.html), [**How ​​to call the API library**](https://jingyan.baidu.com/article/25648fc1e86917d191fd009d.html).
+1. If you enter `from ultraArm_P1_lib import UltraArmP1`, there is no red wavy line under the font, which proves that it has been successfully installed and can be used. If a red wavy line appears, you can refer to [**How ​​to install the API library** ](https://www.cnblogs.com/xiaoguan-bky/p/11184740.html), [**How ​​to call the API library**](https://jingyan.baidu.com/article/25648fc1e86917d191fd009d.html).
 
 2. If you do not want to install the API library through the above command, you can download the project to your local computer through the following github.
 
-First, go to the project address: **https://github.com/elephantrobotics/pymycobot**. Then click the Code button on the right side of the webpage, and then click Download ZIP to download it locally. Put the pymycobot folder in the compressed package pymycobot file project into your python dependency library directory, and you can directly import and use it.
+First, go to the project address: **https://github.com/elephantrobotics/ultraArm_P1_lib**. Then click the Code button on the right side of the webpage, and then click Download ZIP to download it locally. Put the ultraArm_P1_lib folder in the compressed package ultraArm_P1_lib file project into your python dependency library directory, and you can directly import and use it.
 
-<img src="../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/pymycobotgithub.jpg" style="zoom: 33%;" />
+<img src="../../../../resources/C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/ultraArm_P1_libgithub.jpg" style="zoom: 33%;" />
 
 ## Preparation Before Use
 
@@ -208,7 +208,7 @@ Before using Case Function I, please ensure the following hardware and environme
 
   - Python 3.6 or later is installed
 
-  - The `pymycobot` library is installed (installed via the terminal command `pip install pymycobot`)
+  - The `ultraArm_P1_lib` library is installed (installed via the terminal command `pip install ultraArm_P1_lib`)
 
   - Ensure the ultraArm P1 is properly powered on and in standby mode
 
@@ -217,7 +217,7 @@ Before using Case Function I, please ensure the following hardware and environme
 ## Simple Demonstration
 
 ```python
-from pymycobot import UltraArmP1
+from ultraArm_P1_lib import UltraArmP1
 
 # Modify the serial port number according to your actual situation; the baud rate is 1000000 by default
 ua = UltraArmP1("COM3",1000000)

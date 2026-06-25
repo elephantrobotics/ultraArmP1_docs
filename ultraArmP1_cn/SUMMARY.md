@@ -78,7 +78,7 @@
     * [10.1 力控夹爪](D-SupportAndService/10-Accessories/10.1-myGripperF100.md)
     * [10.2 气动夹爪](D-SupportAndService/10-Accessories/10.2-PneumaticGripper.md)
     * [10.3 垂直吸泵](D-SupportAndService/10-Accessories/10.3-VerticalSuctionPump.md)
-    * [10.4 笔夹](D-SupportAndService/10-Accessories/10.4-PenHolderPro.md)
+    * [10.4 笔夹持器](D-SupportAndService/10-Accessories/10.4-PenHolderPro.md)
     * [10.5 激光发射器](D-SupportAndService/10-Accessories/10.5-LaserEmitter.md)
 * [11 更新日志](D-SupportAndService/11-LogUpdate.md)
 

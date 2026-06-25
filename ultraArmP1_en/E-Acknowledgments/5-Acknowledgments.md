@@ -1,6 +1,6 @@
 # Acknowledgements
 
-We would like to express our deep gratitude to all the people who have participated in the development, testing and improvement of the myCobot series of products (including myCobot 280 pi, myCobot 280 M5, myCobot 280 JN, myCobot 280 For Arduino, myCobot Pro 450 and kits). Every detail polished and every feature innovative is inseparable from the hard work and dedication of the team behind it.
+We would like to express our deep gratitude to all the people who have participated in the development, testing and improvement of the ultraArm P1 series of products (including myCobot 280 pi, ultraArm P1, myCobot 280 JN, myCobot 280 For Arduino, ultraArm P1 and kits). Every detail polished and every feature innovative is inseparable from the hard work and dedication of the team behind it.
 
 ### Special Thanks:
 
@@ -12,7 +12,7 @@ We would like to express our deep gratitude to all the people who have participa
 
 ### User Thanks:
 
-We are especially grateful to every user who has chosen and trusted the myCobot series of products. Your feedback and suggestions are the driving force for our continuous progress and improvement. We promise to continue to listen to your voice and continuously optimize our products and services.
+We are especially grateful to every user who has chosen and trusted the ultraArm P1 series of products. Your feedback and suggestions are the driving force for our continuous progress and improvement. We promise to continue to listen to your voice and continuously optimize our products and services.
 
 ### Future Outlook:
 

@@ -2,7 +2,7 @@
 
 ## Usage Environment
 
-myCobot Pro 450 is developed and used based on PC. Since there is no built-in system in the robot arm, the robot arm and PC need to be combined during use. Please prepare the PC before use.
+ultraArm P1 is developed and used based on PC. Since there is no built-in system in the robot arm, the robot arm and PC need to be combined during use. Please prepare the PC before use.
 
 ## Development Environment
 

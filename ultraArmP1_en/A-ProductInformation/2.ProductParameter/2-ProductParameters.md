@@ -9,13 +9,13 @@ width = "1200" align = "center">
 
 | Index | Parameters |
 | :-----------: | :---------: |
-| Name | Full harmonic collaborative robotic arm |
-| Model | myCobot Pro 450 |
-| Degrees of Freedom | 6 |
-| Payload | 1 Kg |
-| Working Radius | 450mm |
-| Repeatability | ±0.1mm |
-| Weight | <5Kg |
+| Name | 4-axis stepper motor desktop robotic arm |
+| Model | ultraArm P1 |
+| Degrees of Freedom | 4 |
+| Payload | 650 g |
+| Working Radius | 360 mm |
+| Repeatability | +/- 0.1 mm |
+| Weight | < 4.5 Kg |
 | Power Input | 24V，9.2A |
 | Operating Temperature | 0-45℃ |
 | Communication | TCP/IP-Socket<br>MODBUS<br>Ethernet IP |

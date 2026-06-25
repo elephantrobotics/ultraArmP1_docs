@@ -9,7 +9,7 @@ When the robotic arm fails to execute a motion command, the corresponding except
 Normally, this interface returns `ok`. The robot status is read as follows:
 
 ```python
-from pymycobot import UltraArmP1
+from ultraArm_P1_lib import UltraArmP1
 
 ua = UltraArmP1('COM3', 1000000) # Serial port connection communication
 
@@ -25,7 +25,7 @@ ok
 
 This indicates that the robot has no joints exceeding limits, no joint hardware errors, and no joint software errors. If there are any errors or exceptions, the corresponding error information will be returned.
 
-```python from pymycobot import UltraArmP1
+```python from ultraArm_P1_lib import UltraArmP1
 
 ua = UltraArmP1('COM3', 1000000) # Serial port connection communication
 
