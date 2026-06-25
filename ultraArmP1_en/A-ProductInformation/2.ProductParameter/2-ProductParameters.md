@@ -58,8 +58,8 @@ width = "550" align = "center">
 | Joint | Maximum Speed |
 | :--------: | :----------:|
 | J1 | 180°/s |
-| J2 | 180°/s |
-| J3 | 180°/s |
+| J2 | 120°/s |
+| J3 | 130°/s |
 | J4 | 180°/s |
 
 ## 3. Base Interface Description
@@ -74,7 +74,7 @@ width = "550" align = "center">
   - ④ Motor Interface: For connecting and controlling motors.
   - ⑤ Digital Limit Input: Dedicated input for PNP three-wire photoelectric/proximity sensors.
   - ⑥ 3.3V-I/O: Provides 3.3V power and digital signal interface.
-  - ⑦ IIC Grove: For connecting I²C communication sensors or modules.
+  - ⑦ I²C Grove: For connecting I²C communication sensors or modules.
   - ⑧ PWM Grove: For connecting devices requiring PWM signals, such as servos.
   - ⑨ Power Switch: Press to lock (power on), press again to release (power off).
 
