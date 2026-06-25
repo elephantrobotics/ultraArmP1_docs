@@ -1,23 +1,18 @@
 # Acknowledgements
 
-We would like to express our deep gratitude to all the people who have participated in the development, testing and improvement of the ultraArm P1 series of products (including myCobot 280 pi, ultraArm P1, myCobot 280 JN, myCobot 280 For Arduino, ultraArm P1 and kits). Every detail polished and every feature innovative is inseparable from the hard work and dedication of the team behind it.
+We would like to express our deep gratitude to all the people who have participated in the development, testing and improvement of the ultraArm P1 series products. Every detail polished and every feature innovative is inseparable from the hard work and dedication of the team behind it.
 
 ### Special Thanks:
 
-**R&D Team**: Thank you for your innovative thinking and countless days and nights of hard work to transform complex technology into user-friendly products.
-**QA & Testing Team**: Your strict control of every detail ensures the reliability of our products and the ultimate experience of users.
-**Customer Support Team**: Thank you for providing professional support to our users to help them solve every problem during use.
-**Partners & Suppliers**: Your support and service are crucial to the success of the product. Thank you for your high-quality raw materials and components, and your attitude of being ready to support.
-**Investors and Advisors**: Without your trust and financial support, we would not be able to bring these innovations to the market. Your insights and guidance have always been our driving force.
+- **R&D Team**: Thank you to the engineers for their tireless efforts in hardware design, embedded systems, control algorithms, and software design, creating this high-precision 4-axis intelligent stepper motor robotic arm.
+- **QA & Testing Team**: Thank you to the test engineers for their rigorous testing and feedback, ensuring product reliability and stability.
+- **Customer Support Team**: Thank you to the support team for providing timely, professional technical support and service to our users.
+- **Partners**: Thank you to all partners who have collaborated with us to advance the development and application of robotics technology.
+- **Investors**: Thank you to the investors for their trust and support in Elephant Robotics, providing a solid foundation for product development and company growth.
+- **Users**: Most importantly, we thank every user who has chosen and used the ultraArm P1. Your feedback and creativity are our constant motivation for progress.
 
-### User Thanks:
-
-We are especially grateful to every user who has chosen and trusted the ultraArm P1 series of products. Your feedback and suggestions are the driving force for our continuous progress and improvement. We promise to continue to listen to your voice and continuously optimize our products and services.
-
-### Future Outlook:
-
-We look forward to continuing to explore and progress on the road of robotics with all stakeholders. Let us work together to create more possibilities and bring greater convenience and innovation to the world.
+We look forward to seeing the amazing results you create with the ultraArm P1. Welcome to join our developer community and explore the infinite possibilities of robotics together.
 
 ---
 
-[← Previous Chapter](../4-SupportAndService/Accessories/10.9-penHolder.md)
+[← Previous Chapter](../D-SupportAndService/11-LogUpdate.md)
