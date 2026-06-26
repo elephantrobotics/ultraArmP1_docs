@@ -688,4 +688,4 @@ Example: `M300 I1 U1 S0 L23 HFFFF N2`
 
 ---
 
-[<-- Previous Chapter](../6.3-ROS2/6.3.5-Troubleshooting.md) | [Next Chapter -->](../../7.SuccessfulCase/README.md)
+[← Previous Chapter](../6.3-ROS2/6.3.5-Troubleshooting.md) | [Next Chapter →](../../7.SuccessfulCase/README.md)

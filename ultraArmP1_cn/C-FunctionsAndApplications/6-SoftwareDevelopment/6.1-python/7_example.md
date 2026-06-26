@@ -12,4 +12,4 @@
 
 ---
 
-[← 上一章](./6_gripper.md) | [下一章 →](../6.2-ROS2/README.md)
+[← 上一章](./6_gripper.md) | [下一章 →](../6.3-ROS2/README.md)

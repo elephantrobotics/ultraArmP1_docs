@@ -84,4 +84,4 @@ AliExpress: [https://elephantrobotics.aliexpress.com/store/1101941423](https://e
 
 ---
 
-[<- Previous Chapter](../../README.md) | [Next Chapter ->](../2.ProductParameter/2-ProductParameters.md)
+[← Previous Chapter](../../README.md) | [Next Chapter →](../2.ProductParameter/2-ProductParameters.md)

@@ -11,4 +11,4 @@
 
 ---
 
-[← Previous Chapter](../6.developmentGuide/6.5-CommunicationProtocolPackage/6.5-communication1.md) | [Next Chapter→](../8.SupportingResources/README.md)
+[← Previous Chapter](../6.developmentGuide/6.5-CommunicationProtocolPackage/README.md) | [Next Chapter →](../8.SupportingResources/README.md)
