@@ -1,4 +1,4 @@
-# ultraArm P1 
+# ultraArm P1
 
 <img src = ../resources/A-ProductInformation/1-ProductIntroduction/P1Production.png width = "1200" align = "center">
 
