@@ -11,7 +11,7 @@
 - [5.3 myStudio Pro 介绍](./5.3-myStudioPro/README.md)
 本部分介绍了 ultraArm P1 机械臂是一款集多功能于一体的机器人编程控制软件，为用户提供可视化编程交互、画画雕刻应用、快捷移动控制、拖动教学、机器人状态查询、更新烧录等一站式解决方案。覆盖从编程到调试、从学习到部署的全流程需求。<br>
 <br>
-- [5.4 零位校准](./5.5-set_joint_zero.md)
+- [5.4 零位校准](./5.4-set_joint_zero.md)
 本部分介绍了使用Python API接口对机械臂关节进行零位校准。适用于烧录系统镜像之后以及关节零位出现偏差时。<br>
 <br>
-[← 上一章](../../2-BasicSettings/4-FirstInstallAndUse/4.3-PowerOnDetectionGuide.md) | [下一章 →](5.1-SystemInstructions.md)
+[← 上一章](../../B-BasicSettings/4-FirstInstallAndUse/4.3-PowerOnDetectionGuide.md) | [下一章 →](5.1-SystemInstructions.md)

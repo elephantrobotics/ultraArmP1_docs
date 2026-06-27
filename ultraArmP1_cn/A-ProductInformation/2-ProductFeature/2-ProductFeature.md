@@ -87,8 +87,16 @@ width = "550" align = "center">
   - ② Type-C 接口：程序烧录与通信。
   - ③ UART Grove：串口通信，连接串口设备。
 
+### 末端执行器接口说明
 
-## 4. 笛卡尔坐标参数
+  <img src="../../resources/A-ProductInformation/2-ProductFeature/arm_production.png" width="300" height="auto" />
+
+  - ① 舵机接口：为末端舵机型执行器（如气动夹爪）提供电源与控制信号。
+  - ② Grove：支持5V数字逻辑电平输入。
+  - ③ Grove：提供5V数字逻辑电平输出。
+  - 工具按钮：用于机器人应用的功能交互，可自定义按键功能。
+
+## 4. 笛卡尔坐标
 
 <img src = ../../resources/A-ProductInformation/2-ProductFeature/coordinate_system.png
 width = "550" align = "center">
@@ -100,7 +108,27 @@ width = "550" align = "center">
 | **末端坐标系** |- 原点：末端快接锁头水平面中心点。<br>X轴：机械臂处于关节零位时，面朝底座开关，水平向前。<br>Y轴：机械臂处于关节零位时，面朝底座开关，水平向左。<br>Z轴：机械臂处于关节零位时，面朝底座开关，竖直向上。  |
 | **基坐标系** | - 原点：底座底面中心点。<br>X轴：面朝底座开关，水平向前。<br>Y轴：面朝底座开关，水平向左。<br>Z轴：竖直向上。 |
 
+## 5. 关节坐标系
 
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/关节坐标系.png
+width = "550" align = "center">
+
+| 颜色 | 说明         |
+| ---- | ------------ |
+| 绿色 | 正常执行程序 |
+| 蓝色 | 运动学异常   |
+| 红色 | 系统报错     |
+
+## 6. 工作范围
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/工作空间示意图.png
+width = "550" align = "center">
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/水平平面工作范围.png
+width = "550" align = "center">
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/垂直平面工作范围.png
+width = "550" align = "center">
 
 ---
 

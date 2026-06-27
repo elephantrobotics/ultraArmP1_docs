@@ -86,7 +86,16 @@ width = "550" align = "center">
   - ② Type-C Interface: Program flashing and communication.
   - ③ UART Grove: Serial communication, connect serial devices.
 
-## 4. Cartesian Coordinate Parameters
+### End-Effector Interface Description
+
+  <img src="../../resources/A-ProductInformation/2-ProductFeature/arm_production.png" width="300" height="auto" />
+
+  - ① Servo Interface: Provides power and control signals for end servo-type actuators (e.g., pneumatic grippers).
+  - ② Grove: Supports 5V digital logic level input.
+  - ③ Grove: Provides 5V digital logic level output.
+  - Tool Button: Used for functional interaction in robotic applications, supports customizable button functions.
+
+## 4. Cartesian Coordinate
 
 <img src = ../../resources/A-ProductInformation/2-ProductFeature/coordinate_system.png
 width = "550" align = "center">
@@ -97,6 +106,28 @@ width = "550" align = "center">
 | :--- | :--- |
 | **End Coordinate System** | - Origin: Center point of the end quick-connect lock head horizontal plane.<br>- X-axis: When the robotic arm is at joint zero position, facing the base switch, horizontally forward.<br>- Y-axis: When the robotic arm is at joint zero position, facing the base switch, horizontally to the left.<br>- Z-axis: When the robotic arm is at joint zero position, facing the base switch, vertically upward. |
 | **Base Coordinate System** | - Origin: Center point of the base bottom surface.<br>- X-axis: Facing the base switch, horizontally forward.<br>- Y-axis: Facing the base switch, horizontally to the left.<br>- Z-axis: Vertically upward. |
+
+## 5. Joint Coordinate System
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/关节坐标系.png
+width = "550" align = "center">
+
+| Color | Description |
+| ----- | ----------- |
+| Green | Normal program execution |
+| Blue  | Kinematics abnormality |
+| Red   | System error |
+
+## 6. Working Range
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/工作空间示意图.png
+width = "550" align = "center">
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/水平平面工作范围.png
+width = "550" align = "center">
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/垂直平面工作范围.png
+width = "550" align = "center">
 
 ---
 

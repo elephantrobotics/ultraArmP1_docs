@@ -4,7 +4,7 @@
 
 ultraArm P1 is developed and used based on PC. Since there is no built-in system in the robot arm, the robot arm and PC need to be combined during use. Please prepare the PC before use.
 
-> **Important Notice:** When developing with ultraArm P1, if a virtual machine or system image is required, please use only the official image files provided by Elephant Robotics' official website (www.elephantrobotics.com). Using images from unofficial sources may cause system instability, functional abnormalities, or security risks. Issues arising from such use are not covered under the product warranty.
+> **Important Notice:** When developing with ultraArm P1, if a virtual machine or system image is required, please use only the official image files provided by Elephant Robotics' official website. Using images from unofficial sources may cause system instability, functional abnormalities, or security risks. Issues arising from such use are not covered under the product warranty.
 
 ## Development Environment
 

@@ -11,10 +11,7 @@ This section introduces MiniRobot, the local control panel for the ultraArm P1 P
 - [5.3 myStudio Pro ](./5.3-myStudioPro/README.md)<br>
 This section introduces myStudio Pro, a multi-functional robot programming and control software that provides users with a one-stop solution for visual programming interaction, quick motion control, drag-and-drop teaching, and robot status inquiry and configuration.  The software primarily integrates four functional modules: myBlockly, Quick Motion, Resource Links, and Settings, covering the entire process from programming to debugging, and from learning to deployment.
 
-- [5.4 SystemUpdate](./5.4-system_flash.md)<br>
-This section provides a detailed explanation of the complete process for flashing/updating the system image on the P1Arm robotic arm. The core operation involves writing the new system image file to the device's main controller using a dedicated PC-based tool (RKDevTool).
-
-- [5.5 Zero-position calibration](./5.5-set_joint_zero.md)<br>
+- [5.4 Zero-position calibration](./5.4-set_joint_zero.md)<br>
 This section describes how to perform zero-position calibration of robotic arm joints using the Python API. This is applicable after burning a system image and when joint zero-position deviations occur.
 
-[← Previous Chapter](../../2-BasicSettings/4.FirstTimeInstallation/4.3-PowerOnDetectionGuide.md) | [Next Chapter →](./5.1-SystemInstructions.md)
+[← Previous Chapter](../../B-BasicSettings/4.FirstTimeInstallation/4.3-PowerOnDetectionGuide.md) | [Next Chapter →](./5.1-SystemInstructions.md)
