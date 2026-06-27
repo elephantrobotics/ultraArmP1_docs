@@ -8,4 +8,4 @@ You can download all relevant product information through the following link: [P
 
 ---
 
-[← Previous Chapter](../README.md) | [Next Chapter→](../8.2-ProductDrawings/README.md)
+[← Previous Chapter](../README.md) | [Next Chapter →](../8.2-ProductDrawings/README.md)

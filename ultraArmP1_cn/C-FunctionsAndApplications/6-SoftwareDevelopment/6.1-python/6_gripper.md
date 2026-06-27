@@ -32,7 +32,7 @@ time.sleep(1)
 print(ua.get_gripper_angle())  # 读取夹爪角度信息
 time.sleep(1)
 
-ua.set_gripper_angle(50， 90)  # 设置夹爪角度为50，速度90
+ua.set_gripper_angle(50, 90)  # 设置夹爪角度为50，速度90
 time.sleep(2)
 
 ua.set_gripper_angle(100, 70)  # 设置夹爪角度为100，速度70

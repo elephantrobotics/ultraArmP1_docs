@@ -64,7 +64,7 @@ width = "550" align = "center">
 
 ## 3. Base Interface Description
 
-### Base Front View:
+### 3.1 Base Front View:
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/base_front.png" width="300" height="auto" />
 
@@ -78,7 +78,7 @@ width = "550" align = "center">
   - ⑧ PWM Grove: For connecting devices requiring PWM signals, such as servos.
   - ⑨ Power Switch: Press to lock (power on), press again to release (power off).
 
-### Base Side View:
+### 3.2 Base Side View:
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/base_side.png" width="300" height="auto" />
 
@@ -86,7 +86,7 @@ width = "550" align = "center">
   - ② Type-C Interface: Program flashing and communication.
   - ③ UART Grove: Serial communication, connect serial devices.
 
-### End-Effector Interface Description
+### 3.3 End-Effector Interface Description
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/arm_production.png" width="300" height="auto" />
 
@@ -104,12 +104,12 @@ width = "550" align = "center">
 
 | Coordinate System | Definition |
 | :--- | :--- |
-| **End Coordinate System** | - Origin: Center point of the end quick-connect lock head horizontal plane.<br>- X-axis: When the robotic arm is at joint zero position, facing the base switch, horizontally forward.<br>- Y-axis: When the robotic arm is at joint zero position, facing the base switch, horizontally to the left.<br>- Z-axis: When the robotic arm is at joint zero position, facing the base switch, vertically upward. |
-| **Base Coordinate System** | - Origin: Center point of the base bottom surface.<br>- X-axis: Facing the base switch, horizontally forward.<br>- Y-axis: Facing the base switch, horizontally to the left.<br>- Z-axis: Vertically upward. |
+| **End Coordinate System** | - Origin: Center point of the end quick-connect lock head horizontal plane (marked as: End Center Point in the diagram).<br>- X-axis: When the robotic arm is at joint zero position, facing the base switch, horizontally forward.<br>- Y-axis: When the robotic arm is at joint zero position, facing the base switch, horizontally to the left.<br>- Z-axis: When the robotic arm is at joint zero position, facing the base switch, vertically upward. |
+| **Base Coordinate System** | - Origin: Center point of the base bottom surface (marked as: Coordinate System Origin in the diagram).<br>- X-axis: Facing the base switch, horizontally forward.<br>- Y-axis: Facing the base switch, horizontally to the left.<br>- Z-axis: Vertically upward. |
 
 ## 5. Joint Coordinate System
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/关节坐标系.png
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/joint_coordinate.png
 width = "550" align = "center">
 
 | Color | Description |
@@ -120,14 +120,22 @@ width = "550" align = "center">
 
 ## 6. Working Range
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/工作空间示意图.png
+### 6.1 Workspace Diagram
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/workspace_diagram.png
 width = "550" align = "center">
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/水平平面工作范围.png
+Diagram Description: The annular area in the figure defines the 3D workspace of the robotic arm, which is the set of all spatial points that the end effector can reach; the red arrows in the figure define the movement directions of each joint of the robotic arm.
+
+### 6.2 Plane Range
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/plane_range.png
 width = "550" align = "center">
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/垂直平面工作范围.png
-width = "550" align = "center">
+- J1 Motion Range: +/- 158 deg
+- Maximum Working Radius: 360 mm
+- Minimum Working Radius: 141 mm
+- Maximum Working Height: 258.4 mm
 
 ---
 

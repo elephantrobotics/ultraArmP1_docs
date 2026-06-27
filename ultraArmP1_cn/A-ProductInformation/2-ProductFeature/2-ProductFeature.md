@@ -65,7 +65,7 @@ width = "550" align = "center">
 
 ## 3. 机械臂底座接口说明
 
-### 底座正面图：
+### 3.1 底座正面图：
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/base_front.png" width="300" height="auto" />
 
@@ -79,7 +79,7 @@ width = "550" align = "center">
   - ⑧ PWM Grove：用于连接舵机等需要 PWM 信号的设备。
   - ⑨ 电源开关：按下锁定为开机，再次按下释放为关机。
 
-### 底座侧面图：
+### 3.2 底座侧面图：
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/base_side.png" width="300" height="auto" />
 
@@ -87,7 +87,7 @@ width = "550" align = "center">
   - ② Type-C 接口：程序烧录与通信。
   - ③ UART Grove：串口通信，连接串口设备。
 
-### 末端执行器接口说明
+### 3.3 末端执行器接口说明
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/arm_production.png" width="300" height="auto" />
 
@@ -105,12 +105,12 @@ width = "550" align = "center">
 
 | 坐标系 | 定义 |
 | :--- | :--- |
-| **末端坐标系** |- 原点：末端快接锁头水平面中心点。<br>X轴：机械臂处于关节零位时，面朝底座开关，水平向前。<br>Y轴：机械臂处于关节零位时，面朝底座开关，水平向左。<br>Z轴：机械臂处于关节零位时，面朝底座开关，竖直向上。  |
-| **基坐标系** | - 原点：底座底面中心点。<br>X轴：面朝底座开关，水平向前。<br>Y轴：面朝底座开关，水平向左。<br>Z轴：竖直向上。 |
+| **末端坐标系** |- 原点：末端快接锁头水平面中心点（图内标注：末端中心点）。<br>X轴：机械臂处于关节零位时，面朝底座开关，水平向前。<br>Y轴：机械臂处于关节零位时，面朝底座开关，水平向左。<br>Z轴：机械臂处于关节零位时，面朝底座开关，竖直向上。  |
+| **基坐标系** | - 原点：底座底面中心点（图内标注：坐标系原点）。<br>X轴：面朝底座开关，水平向前。<br>Y轴：面朝底座开关，水平向左。<br>Z轴：竖直向上。 |
 
 ## 5. 关节坐标系
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/关节坐标系.png
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/joint_coordinate.png
 width = "550" align = "center">
 
 | 颜色 | 说明         |
@@ -121,14 +121,22 @@ width = "550" align = "center">
 
 ## 6. 工作范围
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/工作空间示意图.png
+### 6.1 工作空间示意图
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/workspace_diagram.png
 width = "550" align = "center">
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/水平平面工作范围.png
+图示说明：图中环形区域定义了机械臂的3D工作空间，即末端执行器能够到达的所有空间点集合；图中红色箭头定义了机械臂各关节的运动方向。
+
+### 6.2 平面工作范围
+
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/plane_range.png
 width = "550" align = "center">
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/垂直平面工作范围.png
-width = "550" align = "center">
+- J1可运动角度：±158°
+- 最大工作半径：360mm
+- 最小工作半径：141mm
+- 最高工作半径：258.4mm
 
 ---
 

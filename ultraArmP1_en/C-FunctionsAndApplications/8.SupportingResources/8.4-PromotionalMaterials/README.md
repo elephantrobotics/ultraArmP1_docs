@@ -1,22 +1,22 @@
 # Promotional Materials
 
-The promotional materials section includes the product brochure, demonstration video, and customer cases of the ultraArm P1 robot arm. These materials not only show the core advantages and application scenarios of the robot arm, but also provide successful cases in actual applications to help potential customers understand the value of the product more intuitively.
+The promotional materials section includes product brochures, demo videos, and customer cases for the ultraArm P1 robotic arm. These materials not only showcase the core advantages and application scenarios of the robotic arm, but also provide successful cases in practical applications, helping potential customers understand the product's value more intuitively.
 
-| Product | Product Brochure |
-| :------------: | :----------------------------------------------------------: |
-| ultraArm P1 | Currently being compiled... |
+| Machine | Product Brochure |
+| :-----: | :------------: |
+| ultraArm P1 | (Information to be updated) |
 
-**Product unboxing video**
+**Product Unboxing Video**
 
-> Currently being compiled...
+> Video in production
 
-**Product promotion video**
+**Product Promotion Video**
 
-> Currently being compiled...
+> Video in production
 
 **User Case**
 
-> Currently being compiled...
+> Video in production
 
 ---
 

@@ -5,5 +5,5 @@ The system information provides the system architecture and working principle of
 
 ---
 
-[← Previous Chapter](../8.2-ProductDrawings/README.md) | [Next Chapter→](../8.4-PromotionalMaterials/README.md)
+[← Previous Chapter](../8.2-ProductDrawings/README.md) | [Next Chapter →](../8.4-PromotionalMaterials/README.md)
 
