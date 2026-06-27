@@ -69,32 +69,32 @@ width = "550" align = "center">
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/base_front.png" width="300" height="auto" />
 
-  - ① MiniRobot 控制屏幕
-  - ② MiniRobot 按钮
-  - ③ 12V 电源：连接电源适配器。
-  - ④ 电机接口：用于连接和控制电机。
-  - ⑤ 数字限位输入：用于 PNP 三线式光电/接近传感器专用输入。
-  - ⑥ 3.3V-I/O：提供 3.3V 电源和数字信号接口。
-  - ⑦ I²C Grove：用于连接 I²C 通信的传感器或模块。
-  - ⑧ PWM Grove：用于连接舵机等需要 PWM 信号的设备。
-  - ⑨ 电源开关：按下锁定为开机，再次按下释放为关机。
+  - ➀ MiniRobot 控制屏幕
+  - ➁ MiniRobot 按钮
+  - ➂ 12V 电源：连接电源适配器。
+  - ➃ 电机接口：用于连接和控制电机。
+  - ➄ 数字限位输入：用于 PNP 三线式光电/接近传感器专用输入。
+  - ➅ 3.3V-I/O：提供 3.3V 电源和数字信号接口。
+  - ➆ I²C Grove：用于连接 I²C 通信的传感器或模块。
+  - ➇ PWM Grove：用于连接舵机等需要 PWM 信号的设备。
+  - ➈ 电源开关：按下锁定为开机，再次按下释放为关机。
 
 ### 3.2 底座侧面图：
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/base_side.png" width="300" height="auto" />
 
-  - ① RS485 Grove：工业串行通信，抗干扰强，距离远。
-  - ② Type-C 接口：程序烧录与通信。
-  - ③ UART Grove：串口通信，连接串口设备。
+  - ➀ RS485 Grove：工业串行通信，抗干扰强，距离远。
+  - ➁ Type-C 接口：程序烧录与通信。
+  - ➂ UART Grove：串口通信，连接串口设备。
 
 ### 3.3 末端执行器接口说明
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/arm_production.png" width="300" height="auto" />
 
-  - ① 舵机接口：为末端舵机型执行器（如气动夹爪）提供电源与控制信号。
-  - ② Grove：支持5V数字逻辑电平输入。
-  - ③ Grove：提供5V数字逻辑电平输出。
-  - ④ 工具按钮：用于机器人应用的功能交互，可自定义按键功能。
+  - ➀ 舵机接口：为末端舵机型执行器（如气动夹爪）提供电源与控制信号。
+  - ➁ Grove：支持5V数字逻辑电平输入。
+  - ➂ Grove：提供5V数字逻辑电平输出。
+  - ➃ 工具按钮：用于机器人应用的功能交互，可自定义按键功能。
 
 ## 4. 笛卡尔坐标
 

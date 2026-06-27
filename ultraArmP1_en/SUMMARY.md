@@ -79,10 +79,10 @@
 ## Support and Service
 * [9 About Us](D-SupportAndService/9.AboutUs/9.AboutUs.md)
 * [10 Accessories](D-SupportAndService/10.Accessories/accessories.md)
-    * [10.1 myGripper F100](D-SupportAndService/10.Accessories/10.1-myGripperF100.md)
+    * [10.1 Quick-Change Connector](D-SupportAndService/10.Accessories/10.1-QuickChangeConnector.md)
     * [10.2 Pneumatic Gripper](D-SupportAndService/10.Accessories/10.2-PneumaticGripper.md)
     * [10.3 Vertical Suction Pump](D-SupportAndService/10.Accessories/10.3-VerticalSuctionPump.md)
-    * [10.4 Pen Holder](D-SupportAndService/10.Accessories/10.4-PenHolderPro.md)
+    * [10.4 Pen Holder](D-SupportAndService/10.Accessories/10.4-PenHolder.md)
     * [10.5 Laser Emitter](D-SupportAndService/10.Accessories/10.5-LaserEmitter.md)
 * [11 Log Update](D-SupportAndService/11-LogUpdate.md)
 

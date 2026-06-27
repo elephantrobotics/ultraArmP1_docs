@@ -68,31 +68,31 @@ width = "550" align = "center">
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/base_front.png" width="300" height="auto" />
 
-  - ① MiniRobot Control Screen
-  - ② MiniRobot Button
-  - ③ 12V Power: Connect the power adapter.
-  - ④ Motor Interface: For connecting and controlling motors.
-  - ⑤ Digital Limit Input: Dedicated input for PNP three-wire photoelectric/proximity sensors.
-  - ⑥ 3.3V-I/O: Provides 3.3V power and digital signal interface.
-  - ⑦ I²C Grove: For connecting I²C communication sensors or modules.
-  - ⑧ PWM Grove: For connecting devices requiring PWM signals, such as servos.
-  - ⑨ Power Switch: Press to lock (power on), press again to release (power off).
+  - ➀ MiniRobot Control Screen
+  - ➁ MiniRobot Button
+  - ➂ 12V Power: Connect the power adapter.
+  - ➃ Motor Interface: For connecting and controlling motors.
+  - ➄ Digital Limit Input: Dedicated input for PNP three-wire photoelectric/proximity sensors.
+  - ➅ 3.3V-I/O: Provides 3.3V power and digital signal interface.
+  - ➆ I²C Grove: For connecting I²C communication sensors or modules.
+  - ➇ PWM Grove: For connecting devices requiring PWM signals, such as servos.
+  - ➈ Power Switch: Press to lock (power on), press again to release (power off).
 
 ### 3.2 Base Side View:
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/base_side.png" width="300" height="auto" />
 
-  - ① RS485 Grove: Industrial serial communication, strong anti-interference, long distance.
-  - ② Type-C Interface: Program flashing and communication.
-  - ③ UART Grove: Serial communication, connect serial devices.
+  - ➀ RS485 Grove: Industrial serial communication, strong anti-interference, long distance.
+  - ➁ Type-C Interface: Program flashing and communication.
+  - ➂ UART Grove: Serial communication, connect serial devices.
 
 ### 3.3 End-Effector Interface Description
 
   <img src="../../resources/A-ProductInformation/2-ProductFeature/arm_production.png" width="300" height="auto" />
 
-  - ① Servo Interface: Provides power and control signals for end servo-type actuators (e.g., pneumatic grippers).
-  - ② Grove: Supports 5V digital logic level input.
-  - ③ Grove: Provides 5V digital logic level output.
+  - ➀ Servo Interface: Provides power and control signals for end servo-type actuators (e.g., pneumatic grippers).
+  - ➁ Grove: Supports 5V digital logic level input.
+  - ➂ Grove: Provides 5V digital logic level output.
   - Tool Button: Used for functional interaction in robotic applications, supports customizable button functions.
 
 ## 4. Cartesian Coordinate
