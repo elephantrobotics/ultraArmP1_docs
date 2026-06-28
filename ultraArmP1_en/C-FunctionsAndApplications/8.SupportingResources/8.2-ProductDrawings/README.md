@@ -6,7 +6,7 @@ The product drawings section provides detailed 3D model files (STEP format) of t
 
 | Machine | 3D Model File |
 | :-----: | :----------: |
-| ultraArm P1 | [Download](../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%20P1(1).STEP) |
+| ultraArm P1 | [Download](../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%20P1%281%29.STEP) |
 
 ### Machine 2D Drawings
 
