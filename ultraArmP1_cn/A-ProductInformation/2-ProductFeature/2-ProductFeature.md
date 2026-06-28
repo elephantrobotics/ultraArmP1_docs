@@ -4,7 +4,7 @@
 
 ## 1. 机器人规格参数
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/P1Production.png
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/P1Production (2).png
 width = "1200" align = "center">
 
 | 指标       | 参数 |
