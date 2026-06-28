@@ -4,7 +4,7 @@
 
 ## 1. Robot Specifications
 
-<img src = ../../resources/A-ProductInformation/2-ProductFeature/P1Production (2).png
+<img src = ../../resources/A-ProductInformation/2-ProductFeature/P1Production_(2).png
 width = "1200" align = "center">
 
 | Index | Parameters |

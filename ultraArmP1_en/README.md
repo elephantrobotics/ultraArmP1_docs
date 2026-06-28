@@ -1,6 +1,6 @@
 # ultraArm P1
 
-<img src = resources/A-ProductInformation/1-ProductIntroduction/P1Production (2).png width = "1200" align = "center">
+<img src = resources/A-ProductInformation/1-ProductIntroduction/P1Production_(2).png width = "1200" align = "center">
 
 High-Precision 4-Axis Intelligent Palletizing Stepper Motor Robotic Arm
 

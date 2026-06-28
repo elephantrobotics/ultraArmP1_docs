@@ -1,6 +1,6 @@
 # ultraArm P1
 
-<img src = resources/A-ProductInformation/1-ProductIntroduction/P1Production (2).png width = "1200" align = "center">
+<img src = resources/A-ProductInformation/1-ProductIntroduction/P1Production_(2).png width = "1200" align = "center">
 
 高精度 4 自由度智能码垛步进机械臂
 
