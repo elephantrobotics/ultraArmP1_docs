@@ -6,7 +6,7 @@
 
 | 机器 | 3D 模型文件 |
 | :--: | :--------: |
-| ultraArm P1 | [下载](../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%20P1(1).STEP) |
+| ultraArm P1 | [下载](../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%20P1%281%29.STEP) |
 
 ### 机器 2D 图纸
 
