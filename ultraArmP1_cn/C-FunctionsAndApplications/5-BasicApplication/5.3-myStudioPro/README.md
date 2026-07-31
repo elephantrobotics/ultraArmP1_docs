@@ -22,21 +22,33 @@
 
 模块涵盖软件与机器人系统的基础配置选项。用户可在此进行语言切换、关节运动限位设置、系统更新检测与软件驱动更新等操作。
 
-## myStudio Pro界面的显示和基本功能的使用
+## 界面介绍
 
-登录软件，主界面如下图所示
+<img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/readme-1.png" />
 
-<img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-1.png" />
+| 序号      | 功能介绍                                                     |
+| ------   | ------------------------------------------------------------ |
+| 1    | 名字与logo：软件的名字和logo，只做展示作用 |
+| 2    | 状态：机械臂状态实时检测     |
+| 3    | 日志：记录机械臂的日志，可查看当前日志或下载历史日志  |
+| 4    | 回零：可将机械臂返回至初始零位    |
+| 5    | 软急停：紧急切断所有运动指令 |
+| 6    | 积木编程：进入积木编程工作台，创建新工作区 |
+| 7    | 新增文件：进入积木编程工作台，创建新工作区     |
+| 8    | 打开文件：进入积木编程工作台，打开文件管理面板  |
+| 9    | 调试面板：进入调试面板工具页    |
+| 10    | 案例文件：积木编程案例文件，点击前往积木编程工作区    |
+| 11    | 资源中心：进入资源中心页 |
+| 12    | 场景应用：进入场景应用主页面     |
+| 13   | 配置中心：进入配置中心页 |
+| 14   | 最近文件：展示场景应用和积木编程最近的20个文件  |
+| 15    | 进入文件管理：进入积木编程工作台，打开文件管理面板    |
 
-界面功能介绍，界面分成三个区域：
-
-1. 顶部安全监控区
-2. 功能实现
-3. 信息展示
-
-> 注意：登录后软件会自动与机器进行通信连接
+--- 
 
 ## 回零
+
+> 用于将机械臂从任意姿态自动返回至初始零位
 
 此按钮功能为：控制机器人所有关节都回到零位位置
 
@@ -48,13 +60,26 @@
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-3.png" />
 
+--- 
+
 ## 软急停
+
+> 用于在机械臂运动过程中紧急切断所有运动指令
 
 此按钮功能为：控制机器人当前运动停止，所有运行程序中止
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-17.png" />
 
+点击后将下发运动停止指令，指令下发成功后机械臂将停止运动并展示下发成功消息。
+
+<img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-18.png" />
+
+
+--- 
+
 ## 功能实现
+
+> 用于快速导航至五个核心功能模块：积木编程、调试面板、资源中心、场景应用、配置中心
 
 这里可以选择你想要使用的功能，功能包含如下：
 
@@ -64,7 +89,11 @@
 > 4. [场景应用](./5.3.6-scene.md)
 > 5. [配置中心](./5.3.7-setting.md)
 
+--- 
+
 ## 积木编程
+
+> 用于新建或打开积木编程文件并进入积木编程工作台
 
 `积木编程`是一个完全可视的模块化编程界面，属于图形化编程语言，适合初级用户熟悉编程。使用者以拖拽拼图的方式开发出应用程序，即可创造出简单及复杂的功能。支持图形化代码的保存、加载、单步调试执行、执行指定的单个积木块等功能。
 
@@ -88,7 +117,11 @@
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-6.png" />
 
+--- 
+
 ## 常用工具
+
+> 用于快速跳转至调试面板、资源中心、场景应用、配置中心四个高频工具
 
 #### [调试面板](./5.3.4-debugPlane.md)
 
@@ -114,13 +147,21 @@
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-10.png" />
 
+--- 
+
 ## 信息展示
+
+> 用于在底部状态栏实时展示机械臂运行状态、当前坐标与末端运动数据
 
 应用的底层部分，警报提示以及当前机器人的运行状态。
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-11.png" />
 
+--- 
+
 ## 报警提示
+
+> 用于在机械臂发生错误时通过弹窗和状态栏进行报警提示
 
 功能：展示机器人错误信息，并且鼠标左点击可以打开错误日志窗口。
 
@@ -141,7 +182,7 @@
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-13.png" />
 
-1、当捕获到机械臂异常时，会弹出捕获到的具体警告弹窗，弹窗主要由4部分组成，1：当前异常错误的具体内容；2：当前异常错误的解决方法，若当前异常可解决或恢复则会显示，反之则没有内容显示；3：当前可清除或恢复的异常错误的'修复按钮'，触发即自动对该异常进行修复处理，反之则没有按钮显示；4：当前异常确认按钮，如果你不想处理错误，可以该按钮忽略当前异常。
+1、当捕获到机械臂异常时，会弹出捕获到的具体警告弹窗，弹窗主要由4部分组成，1：当前异常错误的具体内容；2：当前异常错误的解决方法，若当前异常可解决或恢复则会显示，反之则没有内容显示；3：当前可清除或恢复的异常错误的`修复`按钮'，触发即自动对该异常进行修复处理，反之则没有按钮显示；4：当前异常`确认`按钮，如果你不想处理错误，可以该按钮忽略当前异常。
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-14.png" />
 
@@ -149,10 +190,12 @@
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-15.png" />
 
-3、（1）机器人日志下载按钮，自动获取当前时间往前推 1天 范围内的日志，并将日志文件以“.log”文件格式下载至对
-应存储位置，若异常可修复可点击修复按钮（2）进行异常修复操作，点击清理记录按钮（3）会对已解决的历史报警记录进行清除操作。
+3、（1）机器人`下载日志`按钮，自动获取当前时间往前推 1天 范围内的日志，并将日志文件以“.log”文件格式下载至对
+应存储位置，若异常可修复可点击`修复`按钮（2）进行异常修复操作，点击`清除记录`按钮（3）会对已解决的历史报警记录进行清除操作。
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-16.png" />
+
+--- 
 
 ## 机器人状态
 
