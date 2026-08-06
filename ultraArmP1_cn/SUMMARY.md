@@ -43,6 +43,7 @@
         * [5.3.7 配置中心](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.7-setting.md)
         * [5.3.8 常见问题](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.8-Q&A.md)
     * [5.4 零位校准](C-FunctionsAndApplications/5-BasicApplication/5.4-set_joint_zero.md)
+    * [5.5 积木块说明](C-FunctionsAndApplications/5-BasicApplication/5.5-blocks.md)
 * [6 软件开发指南](C-FunctionsAndApplications/6-SoftwareDevelopment/README.md)
     * [6.1 基于python 开发使用](C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/README.md)
       * [6.1.1 环境搭建](C-FunctionsAndApplications/6-SoftwareDevelopment/6.1-python/1_download.md)
