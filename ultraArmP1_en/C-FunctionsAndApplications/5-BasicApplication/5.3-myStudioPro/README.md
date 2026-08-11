@@ -2,27 +2,17 @@
 
 **myStudio Pro** is a robot programming and control software integrating multiple functions, providing users with one-stop solutions such as visual programming interaction, quick movement control, drag teaching, robot status query and configuration. The software mainly integrates five functional modules: `Block Programming`, `Debug Panel`, `Resource Center`, `Scene apps`, and `Configuration`, covering the entire process requirements from programming to debugging, from learning to deployment.
 
-**Block Programming**
-
-The module draws inspiration from the Scratch programming language developed by the Massachusetts Institute of Technology. It uses a graphical method of assembling building blocks to facilitate programming. Users can gradually construct complete code logic by intuitively dragging and combining the modules. The entire process is simple to operate and easy to understand, making it particularly suitable for beginners in programming and educational settings.
+**Block Programming** The module draws inspiration from the Scratch programming language developed by the Massachusetts Institute of Technology. It uses a graphical method of assembling building blocks to facilitate programming. Users can gradually construct complete code logic by intuitively dragging and combining the modules. The entire process is simple to operate and easy to understand, making it particularly suitable for beginners in programming and educational settings.
 
 From the perspective of user experience, **Block Programming** is a low-barrier, visual code generation tool that makes programming as easy and intuitive as building with blocks. From the developer's viewpoint, this module is essentially a text editor that can dynamically generate structured code. The code generated through interactive dragging by users will eventually be transformed into an instruction sequence that can be executed on the robot. This design and interaction method not only reduces the difficulty of use but also ensures the professionalism and executability of the program.
 
-**Debug Panel**
+**Debug Panel** The module can control the angles and coordinates of each joint through point motion. It allows setting the change in joint angles and coordinate movement distance for each point motion, and can display the posture of the robotic arm in real time. It also enables manual control of the signal switch status of the corresponding IO ports.
 
-This module can control the angles and coordinates of each joint through point motion. It allows setting the change in joint angles and coordinate movement distance for each point motion, and can display the posture of the robotic arm in real time. It also enables manual control of the signal switch status of the corresponding IO ports.
+**Resource Center** The module provides users with a convenient resource navigation function, presenting centralized access points to commonly used external links, such as technical documents and official contact information. Users do not need to search manually and can quickly access relevant support materials, thereby improving the efficiency of use and maintenance.
 
-**Resource Center**
+**Scene apps** The module provides users with the two core functions of the robot, namely writing and drawing, as well as laser engraving. Users can perform graphic editing and preview operations, and convert them into actual control instructions to realize the writing, drawing and laser engraving functions of the robot.
 
-This module provides users with a convenient resource navigation function, presenting centralized access points to commonly used external links, such as technical documents and official contact information. Users do not need to search manually and can quickly access relevant support materials, thereby improving the efficiency of use and maintenance.
-
-**Scene apps**
-
-This module provides users with the two core functions of the robot, namely writing and drawing, as well as laser engraving. Users can perform graphic editing and preview operations, and convert them into actual control instructions to realize the writing, drawing and laser engraving functions of the robot.
-
-**Configuration**
-
-The module covers the basic configuration options for software and robot systems. Users can perform operations such as language switching, setting joint motion limits, system update detection, and software driver updates here.
+**Configuration** The module covers the basic configuration options for software and robot systems. Users can perform operations such as language switching, setting joint motion limits, system update detection, and software driver updates here.
 
 ## Interface Introduction
 
