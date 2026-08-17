@@ -6,7 +6,7 @@
 
 | 机器 | 3D 模型文件 |
 | :--: | :--------: |
-| ultraArm P1 | [下载](../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm_P1.STEP) |
+| ultraArm P1 | <a href="../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm_P1.STEP" download target="_blank">下载</a> |
 
 ### 配件 3D 模型
 
@@ -14,10 +14,10 @@
 
 | 配件 | 3D 模型文件 |
 | :--: | :--------: |
-| 快换接头 | [下载](../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%E5%BF%AB%E6%8D%A2%E6%8E%A5%E5%A4%B4.STEP) |
-| 气动夹爪 | [下载](../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%E6%B0%94%E5%8A%A8%E5%A4%B9%E7%88%AA.STEP) |
-| 垂直吸泵 | [下载](../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%E5%9E%82%E7%9B%B4%E5%90%B8%E6%B3%B5.STEP) |
-| 笔夹持器 | [下载](../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%E7%AC%94%E5%A4%B9%E6%8C%81%E5%99%A8.STEP) |
+| 快换接头 | <a href="../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%E5%BF%AB%E6%8D%A2%E6%8E%A5%E5%A4%B4.STEP" download target="_blank">下载</a> |
+| 气动夹爪 | <a href="../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%E6%B0%94%E5%8A%A8%E5%A4%B9%E7%88%AA.STEP" download target="_blank">下载</a> |
+| 垂直吸泵 | <a href="../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%E5%9E%82%E7%9B%B4%E5%90%B8%E6%B3%B5.STEP" download target="_blank">下载</a> |
+| 笔夹持器 | <a href="../../../resources/C-FunctionsAndApplications/8-FilesDownload/8.2-ProductDrawings/ultraArm%E7%AC%94%E5%A4%B9%E6%8C%81%E5%99%A8.STEP" download target="_blank">下载</a> |
 
 ---
 
