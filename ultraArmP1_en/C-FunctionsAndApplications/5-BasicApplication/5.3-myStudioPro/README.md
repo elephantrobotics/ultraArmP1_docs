@@ -16,7 +16,7 @@ From the perspective of user experience, **Block Programming** is a low-barrier,
 
 ## Interface Introduction
 
-<img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-1.png" />
+<img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/readme-1.png" />
 
 | Serial Number | Function Description |
 | ------ | ------------------------------------------------------------ |
@@ -64,6 +64,8 @@ This button's function is: to stop the current movement of the robot and abort a
 
 After clicking, a motion stop command will be issued. Once the command is issued successfully, the robotic arm will stop moving and a success message will be displayed.
 
+<img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-18.png" />
+
 ---
 
 ## Function Implementation
@@ -102,7 +104,9 @@ After clicking, it will automatically redirect to the block programming and open
 
 **Quickly load the previously saved blockly/gcode files**
 
-When you have used the block programming and have saved a blockly file, as shown in the figure below, the name of the saved file and the save time will be displayed. The maximum number of displayed files is 20. If there are more than 20 files, only the 20 most recently saved files will be shown. Clicking the left mouse button will open the block programming and automatically load the selected blockly file.
+When you have used the block programming and have saved a blockly file or a gcode file in the scene apps, as shown in the figure below, the saved file name and the save time will be displayed. The maximum number of displayed files is 20. If there are more than 20 files, only the latest 20 saved files will be shown. Clicking the left mouse button will open the block programming and automatically load the selected blockly file, and open the scene apps and automatically load the selected gcode file. 
+
+>.gcode files with the .gcode extension are scene apps files, while those without the extension are block programming files.
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-7.png" />
 
@@ -124,13 +128,13 @@ Function: Provide robot product user manual, official videos, official GitHub, o
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-9.png" />
 
-#### [Scene Apps](./5.3.6-scene.md)
+#### [Scene apps](./5.3.6-scene.md)
 
 Function: Integrates the following core functions: writing, drawing, and laser engraving.
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-10.png" />
 
-#### [Configuration Center](./5.3.7-setting.md)
+#### [Configuration](./5.3.7-setting.md)
 
 Function: Integrates the following core functions: real-time monitoring of robot status and information, one-click check for updated application versions, personalized settings (language/motion parameters), pin configuration, etc., helping you efficiently manage the robot system.
 
@@ -143,6 +147,11 @@ Function: Integrates the following core functions: real-time monitoring of robot
 > Used to display the robotic arm running status, current coordinates, and end-effector motion data in real time on the bottom status bar
 
 The underlying part of the application, including the alert notifications and the current operating status of the robot.
+
+- Unconnected: The software and the robotic arm are not properly connected.
+- Connecting: The software and the robotic arm are connected normally.
+- Running: The robotic arm is in motion.
+- Abnormal: There is an abnormal alarm currently on the robotic arm.
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-12.png" />
 
