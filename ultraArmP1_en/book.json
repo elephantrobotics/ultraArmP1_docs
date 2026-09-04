@@ -1,8 +1,9 @@
 {
-   "styles":{
-    "website": "/sidebar.css"
+  "styles": {
+    "website": "/sidebar.css",
+    "pdf": "/pdf.css"
   },
-  
+
   "plugins": [
     "chapter-fold",
     "expandable-chapters",
@@ -30,5 +31,20 @@
       "favicon": "./favicon.ico"
     },
     "password": {}
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 12,
+    "paperSize": "a4",
+    "tocTitle": "P1 User Manual",
+    "extraCss": "pdf.css",
+    "margin": {
+      "right": 20,
+      "left": 20,
+      "top": 20,
+      "bottom": 20
+    },
+    "chapterMark": "pagebreak",
+    "pageBreaksBefore": "/"
   }
 }
