@@ -43,6 +43,7 @@
         * [5.3.7 Configuration Center](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.7-setting.md)
         * [5.3.8 Q&A](C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/5.3.8-Q&A.md)
     * [5.4 Set Joint Zero](C-FunctionsAndApplications/5-BasicApplication/5.4-set_joint_zero.md)
+    * [5.5 Block Description](C-FunctionsAndApplications/5-BasicApplication/5.5-blocks.md)
 * [6 Development Guide](C-FunctionsAndApplications/6.developmentGuide/README.md)
     * [6.1 Python Development](C-FunctionsAndApplications/6.developmentGuide/6.1-python/README.md)
       * [6.1.1 Environment Setup](C-FunctionsAndApplications/6.developmentGuide/6.1-python/1_download.md)
