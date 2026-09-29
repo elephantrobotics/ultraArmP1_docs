@@ -48,7 +48,7 @@ myStudio Pro是一个一站式机器人编程控制软件，支持可视化编�
 
 **注意**：此按钮功能生效的前提是已经成功连接机器人的通信。鼠标左键长按点击此按钮以后，机器人开始执行回零指令，机械臂将缓慢移动至零位，鼠标长按松开即回零指令停止执行。
 
-回零完成以后，会弹窗提示完成回零。
+当且仅当回零完成以后，会弹窗提示完成回零。
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-3.png" />
 
@@ -65,7 +65,6 @@ myStudio Pro是一个一站式机器人编程控制软件，支持可视化编�
 点击后将下发运动停止指令，指令下发成功后机械臂将停止运动并展示下发成功消息。
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-18.png" />
-
 
 --- 
 
@@ -105,7 +104,9 @@ myStudio Pro是一个一站式机器人编程控制软件，支持可视化编�
 
 **快捷载入历史保存的 blockly/gcode 文件**
 
-当你在使用过积木编程并且已经保存过 blockly 文件，如下图示位置会显示保存的文件名称以及保存时间，显示数量最多为 20 个，如果超过 20 个，只显示最新保存的 20 个。鼠标左键点击可以打开 积木编程并且自动加载选中的 blockly 文件
+当你在使用过积木编程并且已经保存过 blockly 文件或者应用场景中保存的 gcode 文件，如下图示位置会显示保存的文件名称以及保存时间，显示数量最多为 20 个，如果超过 20 个，只显示最新保存的 20 个。鼠标左键点击可以打开积木编程并且自动加载选中的 blockly 文件和打开应用场景并且自动加载选中的 gcode 文件。
+
+> .gcode后缀文件为应用场景文件，反之则为积木编程文件
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-6.png" />
 
@@ -146,6 +147,11 @@ myStudio Pro是一个一站式机器人编程控制软件，支持可视化编�
 > 用于在底部状态栏实时展示机械臂运行状态、当前坐标与末端运动数据
 
 应用的底层部分，警报提示以及当前机器人的运行状态。
+
+- 未连接：软件与机械臂未正常连接
+- 连接中：软件与机械臂正常连接
+- 运动中：机械臂正在运动中
+- 异常：机械臂当前存在异常报警
 
 <img width = "1200" align = "center" src="../../../resources/C-FunctionsAndApplications/5-BasicApplication/5.3-myStudioPro/home-11.png" />
 
