@@ -6,5 +6,5 @@
 
 ---
 
-- [ultraArm P1 CN Gitbook Web Link](https://docs.elephantrobotics.com/docs/ultraarm-p1-cn)
-- [ultraArm P1 EN Gitbook Web Link](https://docs.elephantrobotics.com/docs/ultraarm-p1-en)
+- [ultraArm P1 CN Gitbook Web Link](https://docs.elephantrobotics.com/docs/ultraArm-P1-cn/)
+- [ultraArm P1 EN Gitbook Web Link](https://docs.elephantrobotics.com/docs/ultraArm-P1-en/)
