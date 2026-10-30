@@ -16,7 +16,7 @@ Before using Case Function I, please ensure the following hardware and environme
 
   - Python 3.6 or later is installed
 
-  - The `ultraArm_P1_lib` library is installed (installed via the terminal command `pip install ultraArm_P1_lib`)
+  - The `pymycobot` library is installed (installed via the terminal command `pip install pymycobot`)
 
   - Ensure the ultraArm P1 is properly powered on and in standby mode
 
@@ -29,14 +29,14 @@ Before using Case Function I, please ensure the following hardware and environme
 **When using the following function interfaces, please import our API library at the beginning; otherwise, the code will not run successfully. Enter the following code:**
 
 ```python 
-from ultraArm_P1_lib import UltraArmP1
+from pymycobot import UltraArmP1
 ```
 
 **Note:** If our API library is not installed, please refer to the [Environment Installation](./1_download.md) document for installation instructions.
 
 ```python
 # demo
-from ultraArm_P1_lib import UltraArmP1
+from pymycobot import UltraArmP1
 
 ua = UltraArmP1("COM3",1000000)
 
@@ -46,6 +46,7 @@ print(res)
 ua.set_angles([0, 0, 90, 0],50)
 ...
 ```
+
 
 ### 1 `set_joint_release(joint_id)`
 
@@ -166,62 +167,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return Value:** A list of coordinates, with a length of 4, in the format [x, y, z, rx].
 
-### 9 `set_coords_max_speed(coords, _async=True)`
-
-- **Function:** Sends coordinate motion at maximum speed.
-
-- **Parameter Description:**
-
-  - `coords`: A list of coordinates of length 4 or 3, [X, Y, Z, RX] or [X, Y, Z].
-
-    <table>
-
-      <tr>
-
-      <th>Coordinate Id</th>
-
-      <th>Range</th>
-
-      </tr>
-
-      <tr>
-
-      <td text-align: center>X</td>
-
-      <td>-301.7 ~ 360.5</td>
-
-      </tr>
-
-      <tr>
-
-      <td>Y</td>
-
-      <td>-360.5 ~ 360.5</td>
-
-      </tr> <tr>
-
-      <td>Z</td>
-
-      <td>-157 ~ 91</td>
-
-      </tr>
-
-      <tr>
-
-      <td>Rx</td>
-
-      <td>-180 ~ 180</td>
-
-      </tr>
-
-    </table>
-
-
-  - `_async`: Motion positioning feedback, enabled by default.
-
-- **Return value:** Closed-loop returns "ok", open-loop returns 1
-
-### 10 `set_coords(coords, speed, _async=True)`
+### 9 `set_coords(coords, speed, _async=True)`
 
 - **Function:** Sends global coordinates, allowing the robotic arm head to move from its original point to a specified point.
 
@@ -243,7 +189,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
       <td text-align: center>X</td>
 
-      <td>-301.7 ~ 360.5</td>
+      <td>-350 ~ 362.43</td>
 
       </tr>
 
@@ -251,14 +197,14 @@ ua.set_angles([0, 0, 90, 0],50)
 
       <td>Y</td>
 
-      <td>-360.5 ~ 360.5</td>
+      <td>-362.43 ~ 362.43</td>
 
       </tr>
 
       <tr>
       <td>Z</td>
 
-      <td>-157 ~ 91</td>
+      <td>-186.265 ~ 93.44</td>
 
       </tr>
 
@@ -280,7 +226,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value:** Closed-loop returns "ok", open-loop returns 1.
 
-### 11`set_coord(coord_id, coord, speed, _async=True)`
+### 10 `set_coord(coord_id, coord, speed, _async=True)`
 
 - **Function:** Sends a single axis coordinate, allowing the robotic arm head to move from its original point to a specified point.
 
@@ -304,7 +250,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
       <td text-align: center>X</td>
 
-      <td>-301.7 ~ 360.5</td>
+      <td>-350 ~ 362.43</td>
 
       </tr>
 
@@ -312,7 +258,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
       <td>Y</td>
 
-      <td>-360.5 ~ 360.5</td>
+      <td>-362.43 ~ 362.43</td>
 
       </tr>
 
@@ -320,7 +266,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
       <td>Z</td>
 
-      <td>-157 ~ 91</td>
+      <td>-186.265 ~ 93.44</td>
 
       </tr>
 
@@ -338,13 +284,13 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value:** Closed-loop returns "ok", open-loop returns 1.
 
-### 12 `stop()`
+### 11 `stop()`
 
 - **Function:** Stops the robotic arm's movement.
 
 - **Return value：** ok
 
-### 13 `set_jog_angle(joint_id, direction, speed, _async=True)`
+### 12 `set_jog_angle(joint_id, direction, speed, _async=True)`
 
 - **Function:** Sets the JOG angle.
 
@@ -360,7 +306,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return Value:** Closed-loop returns "ok", open-loop returns 1
 
-### 14 `set_jog_coord(axis_id, direction, speed, _async=True)`
+### 13 `set_jog_coord(axis_id, direction, speed, _async=True)`
 
 - **Function:** Sets the JOG coordinate motion.
 
@@ -376,7 +322,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return Value:** Closed-loop returns "ok", open-loop returns 1
 
-### 15 `jog_increment_angle(joint_id, increment, speed, _async=True)`
+### 14 `jog_increment_angle(joint_id, increment, speed, _async=True)`
 
 - **Function:** Sets the angle step motion
 
@@ -392,7 +338,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return Value:** Closed-loop returns "ok", open-loop returns 1
 
-### 16 `jog_increment_coord(coord_id, increment, speed, _async=True)`
+### 15 `jog_increment_coord(coord_id, increment, speed, _async=True)`
 
 - **Function:** Sets the coordinate stepping motion.
 
@@ -408,55 +354,55 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return Value:** Closed-loop returns "ok", open-loop returns 1
 
-### 17 `get_error_information()`
+### 16 `get_error_information()`
 
 - **Function:** Reads error information
 
 - **Return Value:** Error information
 
-### 18 `set_zero_calibration()`
+### 17 `set_zero_calibration()`
 
 - **Function:** Sets zero-point calibration
 
 - **Return value：** ok
 
-### 19 `get_zero_calibration_state()`
+### 18 `get_zero_calibration_state()`
 
 - **Function:** Reads zero-point calibration status
 
 - **Return Value:** `list` [1, 1, 1, 1]
 
-### 20 `get_run_status()`
+### 19 `get_run_status()`
 
 - **Function:** Read Running Status
 
 - **Return Value:** Running Status
 
-### 21 `set_pwm_laser_mode(state)`
+### 20 `set_pwm_laser_mode(state)`
 
 - **Function:** Set pwm laser mode.
 - **Parameters:** `state` (`int`) 0 ~ 1; 0 - Off; 1 - On.
 - **Return Value:** `ok` - Success; `0` - Failure.
 
-### 22 `set_pwm_laser(p_value)`
+### 21 `set_pwm_laser(p_value)`
 
 - **Function:** Set the PWM level (Laser).
 - **Parameters:** `p_value` (`int`) 0 ~ 255.
 - **Return Value:** `ok` - Success; `0` - Failure.
 
-### 23 `set_pwm_custom_mode(state)`
+### 22 `set_pwm_custom_mode(state)`
 
 - **Function:** Set pwm custom mode.
 - **Parameters:** `state` (`int`) 0 ~ 1; 0 - Off; 1 - On.
 - **Return Value:** `ok` - Success; `0` - Failure.
 
-### 24 `set_pwm_custom(p_value)`
+### 23 `set_pwm_custom(p_value)`
 
 - **Function:** Set the PWM level (Custom).
 - **Parameters:** `p_value` (`int`) 0 ~ 255.
 - **Return Value:** `ok` - Success; `0` - Failure.
 
-### 25 `set_gripper_angle(gripper_angle, gripper_speed)`
+### 24 `set_gripper_angle(gripper_angle, gripper_speed)`
 
 - **Function:** Sets the gripper's movement angle
 
@@ -468,13 +414,13 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value：** ok
 
-### 26 `get_gripper_angle()`
+### 25 `get_gripper_angle()`
 
 - **Function:** Reads the gripper angle
 
 - **Return value:** Gripper angle, 1 ~ 100
 
-### 27 `set_gripper_parameter(addr, parameter_value)`
+### 26 `set_gripper_parameter(addr, parameter_value)`
 
 - **Function:** Sets the gripper parameter
 
@@ -485,7 +431,7 @@ ua.set_angles([0, 0, 90, 0],50)
   - `parameter_value` (`int`): 0 ~ 65535
 - **Return value：** ok
 
-### 28 `get_gripper_parameter(addr)`
+### 27 `get_gripper_parameter(addr)`
 
 - **Function:** Reads the gripper parameter
 - **Parameter description:**
@@ -494,7 +440,7 @@ ua.set_angles([0, 0, 90, 0],50)
   - `mode:` (`int`): 1 ~ 2
 - **Return value:** (int) Gripper parameter 0 ~ 65535
 
-### 29 `set_gripper_enable_status(state):`
+### 28 `set_gripper_enable_status(state):`
 
 - **Function:** Set the gripper enable state
 
@@ -508,13 +454,13 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value：** ok
 
-### 30 `set_gripper_zero()`
+### 29 `set_gripper_zero()`
 
 - **Function:** Sets the gripper to zero position
 
 - **Return value：** ok
 
-### 31 `set_pump_state(pump_state)`
+### 30 `set_pump_state(pump_state)`
 
 - **Function:** Sets the pump status
 
@@ -530,7 +476,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value：** ok
 
-### 32 `set_base_io_output(pin_no, pin_status, pin_signal)`
+### 31 `set_base_io_output(pin_no, pin_status, pin_signal)`
 
 - **Function:** Sets the base IO pin output status
 
@@ -552,7 +498,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value：** ok
 
-### 33 `set_digital_io_output(pin_no, pin_signal)`
+### 32 `set_digital_io_output(pin_no, pin_signal)`
 
 - **Function:** Sets the output state of the final I/O pin
 
@@ -568,29 +514,44 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value：** ok
 
-### 34 `set_i2c_data(data_state, data_addr, data_len, data_value)`
+### 33 `set_i2c_data(session_id, package_id, data_state, data_addr, register_addr, data_len, data_value)`
 
-- **Function:** Sets I2C data
+- **Function:** Communicates with sensors through the I2C protocol.
 
 - **Parameter description:**
 
-  - `data_state`: `int` 0 ~ 1
+  - `session_id`: `int` 0 ~ 255, session ID, protocol parameter `I`
+  - `package_id`: `int` 0 ~ 255, package ID, protocol parameter `U`
+  - `data_state`: `int` 0 ~ 1, protocol parameter `S`
+    - `0`: Read
+    - `1`: Write
+  - `data_addr`: `int` 0 ~ 125, slave address, protocol parameter `L`
+  - `register_addr`: `int | str` 0 ~ 65535, register address, protocol parameter `H`; `0xFFFF` or `"FFFF"` means no register parameter; pass a hex string such as `"14"` to preserve `H14`
+  - `data_len`: `int | str` 0 ~ 255, data length, protocol parameter `N`; pass a hex string such as `"0C"` to preserve `N0C`
+  - `data_value`: `int | list[int] | bytes | str | None`, write data, protocol parameter `K`, maximum 32 bytes per command; use `None` or `[]` when reading with no write data; pass a contiguous hex string such as `"000C"` to preserve `K000C`
 
-  - `0`: Read
+- **Return value:**
 
-  - `1`: Write
+  - Returns `ok` when write succeeds
+  - Returns `list[str]` when read succeeds, for example `['8f', '15']`
+  - Returns an error code on failure, for example `1 ~ 7`
 
-  - `data_addr`: `int` 0 ~ 255
+- **Example:**
 
-  - `data_len`: `int`: 0 ~ 64
+```python
+# Write data, sends: M300 I1 U1 S1 L13 H45 N2 K8F 1E
+ua.set_i2c_data(1, 1, 1, 13, 45, 2, [0x8f, 0x1e])
 
-  - `data_value`: `int` 0 ~ 255
+# Read 2 bytes, no register, no write data, sends: M300 I1 U1 S0 L23 HFFFF N2 K
+ua.set_i2c_data(1, 1, 0, 23, "FFFF", 2, None)
 
-- **Return value：** ok
+# Send raw hex text, sends: M300 I1 U12 S1 L29 H14 N0C K000C
+ua.set_i2c_data(1, 12, 1, 29, "14", "0C", "000C")
+```
 
-### 35 `play_gcode_file(filename)`
+### 34 `play_gcode_file(filename)`
 
-- **Function:** Plays the imported track file.
+- **Function:** Plays the imported track file.For laser engraving, please use the `play_gcode_file_laser(filename)` interface.
 
 - **Parameter Description:**
 
@@ -598,19 +559,19 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return Value:** None
 
-### 36 `get_system_screen_version()`
+### 35 `get_system_screen_version()`
 
 - **Function:** Reads the screen firmware major version number
 
 - **Return Value:** Major version number
 
-### 37 `get_modify_screen_version()`
+### 36 `get_modify_screen_version()`
 
 - **Function:** Reads the screen firmware correction version number
 
 - **Return Value:** Correction version number
 
-### 38 `set_communication_baud_rate(baud_rate)`
+### 37 `set_communication_baud_rate(baud_rate)`
 
 - **Function:** Sets the communication baud rate
 
@@ -620,14 +581,14 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value：** ok
 
-### 39 `receive_485_data()`
+### 38 `receive_485_data()`
 
 - **Function:** Receives 485 data
 
 - **Return Value:** 485 data
 
 
-### 40 `set_wifi_password(wifi_name, password)`
+### 39 `set_wifi_password(wifi_name, password=None)`
 
 - **Function:** Sets the on-screen WiFi password.
 
@@ -638,7 +599,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value：** ok
 
-### 41 `check_sd_card()`
+### 40 `check_sd_card()`
 
 - **Function:** Checks if an SD card is present.
 
@@ -648,7 +609,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
   - `0`: SD card not present
 
-### 42 `download_firmware_sd(filename, show_progress=True)`
+### 41 `download_firmware_sd(filename, show_progress=True)`
 
 - **Function:** Downloads firmware data to the SD card.
 
@@ -660,25 +621,25 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return Value:** If `show_progress=True`, the download progress is returned; otherwise, no value is returned.
 
-### 43 `upgrade_restart()`
+### 42 `upgrade_restart()`
 
 - **Function:** Firmware upgrade and restart.
 
 - **Return value：** ok
 
-### 44 `get_motor_enable_status()`
+### 43 `get_motor_enable_status()`
 
 - **Function:** Reads the motor enable status.
 
 - **Return Value:** `list`, 5 motor enable statuses.
 
-### 45 `finish_firmware_upgrade()`
+### 44 `finish_firmware_upgrade()`
 
 - **Function:** Ends the download of firmware data to the SD card. (The upgrade can be terminated midway through the firmware download process.)
 
 - **Return value：** ok.
 
-### 46 `get_base_io_state()`
+### 45 `get_base_io_state()`
 
 - **Function:** Get the state of the base IO pins
   
@@ -689,7 +650,7 @@ ua.set_angles([0, 0, 90, 0],50)
   - `2`: Output, level = 0 (low level)
   - `3`: Output, level = 1 (high level)
 
-### 47 `get_base_io_state(pin_no)`
+### 46 `get_base_io_state(pin_no)`
 
 - **Function:** Get the state of the base IO pins
 - **Parameter:** (`int`) Bottom IO pin number, range: 1 to 10.
@@ -700,7 +661,7 @@ ua.set_angles([0, 0, 90, 0],50)
   - `2`: Output, level = 0 (low level)
   - `3`: Output, level = 1 (high level)
 
-### 48 `get_end_io_state()`
+### 47 `get_end_io_state()`
 
 - **Function:** Get the state of the end IO pins
 
@@ -711,7 +672,7 @@ ua.set_angles([0, 0, 90, 0],50)
   - `2`: Output, level = 0 (low level)
   - `3`: Output, level = 1 (high level)
 
-### 49 `get_end_io_state(pin_no)`
+### 48 `get_end_io_state(pin_no)`
 
 - **Function:** Get the state of the end IO pins
 - **Parameter:** (`int`) End IO pin number, range: 1 to 4.
@@ -722,35 +683,35 @@ ua.set_angles([0, 0, 90, 0],50)
   - `2`: Output, level = 0 (low level)
   - `3`: Output, level = 1 (high level)
 
-### 50 `set_end_button_enable()`
+### 49 `set_end_button_enable()`
 
 - **Function:** Enable the end button
   
 - **Return value：** ok
 
-### 51 `set_end_button_disable()`
+### 50 `set_end_button_disable()`
 
 - **Function:** Disable the end button
 
 - **Return value：** ok
 
-### 52 `forced_reset_zero()`
+### 51 `forced_reset_zero()`
 
 - **Function:** Set forced homing (reset to zero)
   
 - **Return value：** ok
 
-### 53 `set_conveyor_control(state, direction, speed, distance)`
+### 52 `set_conveyor_control(state, direction, speed, distance)`
 
 - **Function:** Conveyor belt control
 - **Parameter Description:**
   - `state`: (`int`) 0~1, conveyor state: 0 - off; 1 - on
   - `direction`: (`int`) 0~1, conveyor direction: 0 - forward; 1 - backward
-  - `speed`: (`int`) conveyor speed, range 50~500000
-  - `distance`: (`int`) conveyor distance, range 1~500000
+  - `speed`: (`int`) conveyor speed, range 1~125 mm/s
+  - `distance`: (`int`) conveyor distance, range 0~1200 mm, 0: Continuous movement; 1-1200: Movement 1-1200mm (maximum stroke)
 - **Return value：** ok
 
-### 54 `set_color(r, g, b)`
+### 53 `set_color(r, g, b)`
 
 - **Function:** Sets the RGB color of the light panel.
 - **Parameter Description:**
@@ -760,7 +721,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value：** ok
 
-### 55 `set_preview_mode(coords)`
+### 54 `set_preview_mode(coords)`
 
 - **Function:** Sets the coordinate trajectory preview mode.
 - **Parameter Description:**
@@ -768,31 +729,31 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return value：** ok
 
-### 56 `get_sd_card_space()`
+### 55 `get_sd_card_space()`
 
 - **Function:** Retrieves the total and available storage space on the SD card.
 
 - **Return Value:** `list` containing the total space and available space, in bytes. Example: [Total Space, Available Space]
 
-### 57 `collision_unlock()`
+### 56 `collision_unlock()`
 
 - **Function:** Unlocks after collision detection.
 
 - **Return Value:** OK - Success; 0 - Failure.
 
-### 58 `clear_error_status()`
+### 57 `clear_error_status()`
 
 - **Function:** Clears the error status. If a limit has been exceeded, the joint must be manually moved back within the limit boundaries.
 
 - **Return Value:** OK - Success; 0 - Failure
 
-### 59 `get_queue_size()`
+### 58 `get_queue_size()`
 
 - **Function:** Reads the size of the buffer queue.
 
 - **Return Value:** `int` Queue size
 
-### 60 `set_robot_id(robot_id)`
+### 59 `set_robot_id(robot_id)`
 
 - **Function:** Sets the device machine code
 
@@ -802,25 +763,25 @@ ua.set_angles([0, 0, 90, 0],50)
 
 - **Return Value:** ok
 
-### 61 `get_robot_id()`
+### 60 `get_robot_id()`
 
 - **Function:** Reads the device machine code
 
 - **Return Value:** Machine code ID, range 001 ~ 254, length 3
 
-### 62 `get_wifi_ip()`
+### 61 `get_wifi_ip()`
 
 - **Function:** Reads the WiFi IP address (only available when WiFi is connected)
 
 - **Return Value:** `str` WiFi IP address
 
-### 63 `get_bluetooth_mac()`
+### 62 `get_bluetooth_mac()`
 
 - **Function:** Reads the Bluetooth communication MAC address (only available when Bluetooth is enabled)
 
 - **Return Value:** `str` Bluetooth MAC address
 
-### 64 `get_end_button_state()`
+### 63 `get_end_button_state()`
 
 - **Function:** Reads the state of the end button
 
@@ -830,7 +791,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
   - `1`: Pressed
 
-### 65 `coord_inverse_solution(coords)`
+### 64 `coord_inverse_solution(coords)`
 
 - **Function:** Inverse coordinate solution; input coordinates and read angles.
 
@@ -842,7 +803,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
   - `angles` (list[float]): List of angle values ​​[J1, J2, J3, J4]
 
-### 66 `angle_correct_solution(angles)`
+### 65 `angle_correct_solution(angles)`
 
 - **Function:** Correct angle solution; input angles and read coordinates.
 
@@ -854,19 +815,19 @@ ua.set_angles([0, 0, 90, 0],50)
 
   - `coords` (list[float]): List of coordinate values ​​[X, Y, Z, R]
 
-### 67 `get_wifi_signal_strength()`
+### 66 `get_wifi_signal_strength()`
 
 - **Function:** Reads WiFi signal strength (only available when WiFi is connected)
 
 - **Return Value:** `int` signal strength, in dBm, e.g., `-62`
 
-### 68 `get_bluetooth_signal_strength()`
+### 67 `get_bluetooth_signal_strength()`
 
 - **Function:** Reads Bluetooth signal strength (only available when Bluetooth is connected)
 
 - **Return Value:** `int` signal strength, in dBm, e.g., `-52`
 
-### 69 `set_collision_threshold(joint_id, threshold)`
+### 68 `set_collision_threshold(joint_id, threshold)`
 
 - **Function:** Sets the joint collision threshold.
 
@@ -890,7 +851,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
   - `ok`
 
-### 70 `get_communication_mode()`
+### 69 `get_communication_mode()`
 
 - **Function:** Retrieves the current communication mode.
 
@@ -904,7 +865,7 @@ ua.set_angles([0, 0, 90, 0],50)
 
   - Bluetooth - Communicates using Bluetooth
 
-### 71 `set_uart1_communication(state)`
+### 70 `set_uart1_communication(state)`
 
 - **Function:** Sets communication using serial port 1.
 
@@ -916,13 +877,13 @@ ua.set_angles([0, 0, 90, 0],50)
 
   - `ok`
 
-### 72 `get_collision_threshold()`
+### 71 `get_collision_threshold()`
 
 - **Function:** Reads the collision threshold of a joint.
 
 - **Return value:** `(list[float])`: The collision threshold for all joints, e.g., [0.5, 0.5, 0.5, 0.5]
 
-### 73 `get_pwm_status()`
+### 72 `get_pwm_status()`
 
 - **Function:** Gets the PWM output status.
 
@@ -936,13 +897,115 @@ ua.set_angles([0, 0, 90, 0],50)
 
   - [3]: PWM value for custom mode, range 0 ~ 255
 
-### 74 `set_conveyor_stop()`
+### 73 `get_limit_switch_state()`
+
+- **Function:** Gets the limit switch state.
+
+- **Return value:** `int`
+
+  - `0`: Not triggered
+
+  - `1`: Triggered
+
+### 74 `laser_engraving_pause_time(pause_time)`
+
+- **Function:** Sets the laser engraving pause time.
+
+- **Parameter description:**
+
+  - `pause_time`: `int`, pause time, range 1 ~ 1000 ms
+
+- **Return value:** `ok`
+
+### 75 `set_conveyor_stop()`
 
 - **Function:** Sets the conveyor belt to stop moving.
 
 - **Return Value:**
 
   - `ok`
+
+---
+
+### 76 `move_pause()`
+
+- **Function:** Pauses the current movement.
+- **Return value:** `ok`
+
+```python
+ua.move_pause()
+```
+
+### 77 `move_resume()`
+
+- **Function:** Resumes movement from the paused position.
+- **Return value:** `ok`
+
+```python
+ua.move_resume()
+```
+
+### 78 `get_move_pause_status()`
+
+- **Function:** Reads the movement pause status.
+- **Return value:** `int`
+  - `1`: Paused
+  - `0`: Not paused
+
+```python
+status = ua.get_move_pause_status()
+print(status)
+```
+
+### 79 `get_joint_acc()`
+
+- **Function:** Gets all joint acceleration parameters.
+- **Return value:** `list[float]`, for example `[2000.0, 400.0, 400.0, 400.0]`
+
+```python
+acc = ua.get_joint_acc()
+print(acc)
+```
+
+### 80 `set_joint_acc(joint_id, acc)`
+
+- **Function:** Sets a single joint acceleration.
+- **Parameter description:**
+  - `joint_id`: `int`, joint ID, range 1 ~ 4
+  - `acc`: `int | float`, acceleration, range 1 ~ 600
+- **Return value:** `ok`
+
+```python
+ua.set_joint_acc(1, 100)
+```
+
+### 81 `get_default_sensor_initialize(sensor_type)`
+
+- **Function:** Gets default sensor initialization parameters.
+- **Parameter description:**
+  - `sensor_type`: `int`, sensor type:
+    - `1`: Photosensitive sensor
+    - `2`: Ultrasonic ranging
+    - `3`: Infrared ranging
+    - `4`: Temperature and humidity sensor
+    - `5`: Temperature and air pressure sensor
+    - `6`: RFID card
+    - `7`: Remote sensing sensor
+- **Return value:** `float | list[float] | str`, sensor initialization parameters. When `sensor_type` is `6`, returns the RFID card ID string, for example `"858CD5AB"`.
+
+```python
+data = ua.get_default_sensor_initialize(1)
+print(data)
+```
+
+### 82 `update_encoder_data()`
+
+- **Function:** Updates the current position using encoder data to eliminate error.
+- **Return value:** `ok`, or an error code on failure.
+
+```python
+ua.update_encoder_data()
+```
 
 ---
 
@@ -961,7 +1024,7 @@ The connection mode needs to be switched to **WLAN** on the small screen on the 
 ```python
 
 # Example
-from ultraArm_P1_lib import UltraArmP1Socket
+from pymycobot import UltraArmP1Socket
 
 # Default port 9000
 
@@ -993,7 +1056,7 @@ The connection mode needs to be switched to **Bluetooth** on the small screen on
 ```python
 
 # Example
-from ultraArm_P1_lib import UltraArmP1Bluetooth
+from pymycobot import UltraArmP1Bluetooth
 
 # Modify the Bluetooth address according to the actual situation
 ua = UltraArmP1Bluetooth("10:51:DB:40:2C:11")
